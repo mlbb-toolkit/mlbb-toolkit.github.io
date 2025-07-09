@@ -1,10 +1,17 @@
-name: Build and Deploy
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -25,8 +32,21 @@ jobs:
     - name: Build Website
       run: npm run build
 
-    - name: Upload Production Build
-      uses: actions/upload-artifact@v3
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+
+    - name: Upload Artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        name: mltoolkit-dist
-        path: dist
+        path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
