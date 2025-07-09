@@ -1,6 +1,6 @@
 import React from 'react';
 import FeatureCard from './components/FeatureCard';
-import logo from './assets/logo.png';
+import logo from './assets/play_store_512.png';
 
 const App: React.FC = () => {
   return (
