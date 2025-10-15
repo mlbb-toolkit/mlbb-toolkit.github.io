@@ -1,0 +1,24 @@
+{
+    "app_update": {
+        "tag": "v1.0",
+        "title": "",
+        "body": "",
+        "url": "https://",
+        "required": false,
+        "enabled": false
+    },
+    "exclusives": [
+        {
+            "hero_id": 6,
+            "skin_id": 5
+        },
+        {
+            "hero_id": 96,
+            "skin_id": 6
+        },
+        {
+            "hero_id": 101,
+            "skin_id": 1
+        }
+    ]
+}
