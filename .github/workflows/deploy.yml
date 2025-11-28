@@ -27,7 +27,7 @@ jobs:
         run: flutter pub get
 
       - name: 🏗️ Build Flutter Web
-        run: flutter build web --release --web-renderer=canvaskit
+        run: flutter build web --release --renderer=canvaskit
 
       - name: 🚀 Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
