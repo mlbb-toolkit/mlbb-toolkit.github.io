@@ -38,3 +38,5 @@ flutter:
     - assets/screenshots/
     - assets/docs/
     - assets/icon/
+    - assets/app.json
+    - assets/config.json
