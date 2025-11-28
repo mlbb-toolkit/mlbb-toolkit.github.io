@@ -1,4 +1,6 @@
+import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -36,6 +38,20 @@ class MlToolkitWeb extends StatelessWidget {
     );
   }
 }
+
+Future<Map<String, dynamic>> loadJson() async {
+  try {
+    final data = await rootBundle.loadString("assets/app.json");
+    return jsonDecode(data);
+  } catch (e) {
+    return {
+      "error": true,
+      "message": "JSON failed to load.",
+      "details": e.toString(),
+    };
+  }
+}
+
 
 /* ----------------------------------------
               THEMES (Light + Dark)
@@ -432,6 +448,7 @@ class _HomePageState extends State<HomePage> {
             child: const Column(
               children: [
                 HeroSection(),
+                AppInfoSectionCard(),
                 ScreenshotsSection(),
                 FooterSection(),
               ],
@@ -493,6 +510,7 @@ class HeroSection extends StatelessWidget {
             HoverScale(child: HeroCard()),
             SizedBox(height: 20),
             HoverScale(child: HeroInfoCard()),
+            SizedBox(height: 20),
           ],
         )
             : const Row(
@@ -504,6 +522,7 @@ class HeroSection extends StatelessWidget {
                 HoverScale(child: HeroCard()),
                 SizedBox(height: 20),
                 HoverScale(child: HeroInfoCard()),
+                SizedBox(height: 20),
               ],
             ),
           ],
@@ -698,6 +717,118 @@ class HeroInfoCard extends StatelessWidget {
   }
 }
 
+class AppInfoSectionCard extends StatelessWidget {
+  const AppInfoSectionCard({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+
+    return FutureBuilder<Map<String, dynamic>>(
+      future: loadJson(),
+      builder: (context, snap) {
+        if (snap.connectionState == ConnectionState.waiting) {
+          return Container(
+            padding: const EdgeInsets.all(24),
+            child: const Center(child: CircularProgressIndicator()),
+          );
+        }
+
+        if (!snap.hasData || snap.data!["error"] == true) {
+          return Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: theme.cardColor.withValues(alpha: 0.9),
+              borderRadius: BorderRadius.circular(16),
+            ),
+            child: const Text(
+              "❌ Failed to load app info",
+              style: TextStyle(color: Colors.red),
+            ),
+          );
+        }
+
+        final details = snap.data!["app_details"];
+        final installs = formatInstalls(details["realInstalls"]);
+        final items = [
+          (installs.isEmpty ? null : installs, "Downloads"),
+          (details["version"], "Version"),
+          (details["score"]?.toString(), "Rating"),
+          (details["released"], "Released On"),
+          (details["lastUpdatedOn"], "Last Updated On"),
+        ].where((item) {
+          final value = item.$1;
+          return value != null && value.toString().trim().isNotEmpty;
+        }).toList();
+
+        return Container(
+          width: double.infinity,
+          margin: const EdgeInsets.symmetric(horizontal: 32),
+          padding: const EdgeInsets.symmetric(vertical: 28, horizontal: 32),
+          decoration: BoxDecoration(
+            color: theme.cardColor.withValues(alpha: 0.85),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(
+              color: theme.colorScheme.primary.withValues(alpha: 0.25),
+            ),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const Text(
+                "App Information",
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              const SizedBox(height: 16),
+
+              // List info rows from JSON
+              for (var item in items)
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 10),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        item.$2,
+                        style: TextStyle(
+                          fontSize: 14.5,
+                          color: theme.colorScheme.onSurface
+                              .withValues(alpha: 0.65),
+                        ),
+                      ),
+                      Text(
+                        item.$1,
+                        style: const TextStyle(
+                          fontSize: 15.5,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+}
+
+String formatInstalls(int? value) {
+  if (value == null) return "";
+  if (value >= 1000000) {
+    final m = value / 1000000;
+    return "${m.toStringAsFixed(m >= 10 ? 0 : 1)}M";
+  }
+  if (value >= 1000) {
+    final k = value / 1000;
+    return "${k.toStringAsFixed(k >= 10 ? 0 : 1)}K";
+  }
+  return value.toString();
+}
 
 /* ----------------------------------------
               SCREENSHOTS SECTION
