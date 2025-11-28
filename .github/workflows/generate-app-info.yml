@@ -1,0 +1,35 @@
+name: Auto-generated app info
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  generate-and-send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install google-play-scraper requests
+
+      - name: Generate JSON file
+        run: python app_info_generator.py
+
+      - name: Commit and Push JSON file
+        run: |
+          git config --local user.email "elfilibusterismo.contact@gmail.com"
+          git config --local user.name "GitHub Actions"
+          git add assets/app.json
+          git commit -m "Auto-generated app info $(date '+%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
