@@ -33,5 +33,12 @@
             "hero_id": 101,
             "skin_id": 1
         }
+    ],
+    "open_testing_apps": [
+        {
+            "icon": "",
+            "name": "Grow A Garden: Stock Tracker",
+            "package": "com.elfilibustero.gagstocktracker"
+        }
     ]
 }
