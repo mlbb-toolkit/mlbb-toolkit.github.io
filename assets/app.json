@@ -1,0 +1,79 @@
+{
+  "app_details": {
+    "title": "ML Toolkit",
+    "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
+    "version": "Varies with device",
+    "score": null,
+    "realInstalls": 20791,
+    "released": "Oct 2, 2025",
+    "lastUpdatedOn": null
+  },
+  "reviews": [
+    {
+      "reviewId": "515c821f-9c76-461d-b98b-e344fef8c35b",
+      "userName": "Enner jay",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWV2NMexQmfFQyMXzpnHmtWkkBMzl7KzSW2EJoyMpGSCFCKVYY",
+      "content": "The injector is very great and all, but everytime I try to inject Freya skin it doesn't inject the model, only the effects, I don't know what's causing this but the app is great",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.2.0",
+      "at": "2025-11-25T03:58:10",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.2.0"
+    },
+    {
+      "reviewId": "05d14e4e-fb44-4893-9b65-a5705f5bce5f",
+      "userName": "Moe Htet Aung",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKejMzgVkaA0On8fyzK4uIKfxDooNqSyTv74QSGV4cbH4TDkA=mo",
+      "content": "hi good",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.2.0",
+      "at": "2025-11-22T17:41:39",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.2.0"
+    },
+    {
+      "reviewId": "1d832be8-39e9-489e-ad03-aa7e9d74a001",
+      "userName": "Angelbert",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJkwFe_8TC7COFn1sSmVx-GPedj3yTHJTOSHmMh10OjxL-rSQ=mo",
+      "content": "goods quality",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.2.0",
+      "at": "2025-11-21T13:35:46",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.2.0"
+    },
+    {
+      "reviewId": "50905a9b-4dbb-4e0c-9df6-d0b4ff3304a3",
+      "userName": "john rick degrano",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUr_lUBbRO5y3Wf05cGHBXTckTRMFnI8WrO7Z1nCaPOHxTf3J4I",
+      "content": "gooods",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.2.0",
+      "at": "2025-11-18T18:38:12",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.2.0"
+    },
+    {
+      "reviewId": "c0b72457-ad45-47f0-a5f5-4d4c9fa865ef",
+      "userName": "Romeo Aradillos",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVeEVIcyp49V5sIuiBUeqAGLKEeYnEH9vtcUjX89AXylRp6akw",
+      "content": "The app is good but if ay inject a skin it stops and it says it's a error pls fex the bug",
+      "score": 3,
+      "thumbsUpCount": 1,
+      "reviewCreatedVersion": null,
+      "at": "2025-11-18T11:53:18",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    }
+  ],
+  "generated_at": "2025-11-28T19:30:49.317686"
+}
