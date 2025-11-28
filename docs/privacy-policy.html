@@ -4,157 +4,126 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy - ML Toolkit</title>
-  <style>
-    :root {
-      color-scheme: light dark;
-      --md-sys-color-primary: accentcolor;
-      --md-sys-color-surface-light: #ffffff;
-      --md-sys-color-on-surface-light: #1b1b1f;
-      --md-sys-color-surface-variant-light: #f4f4f5;
-
-      --md-sys-color-surface-dark: #121212;
-      --md-sys-color-on-surface-dark: #e6e6e6;
-      --md-sys-color-surface-variant-dark: #1e1e1e;
-
-      --radius: 12px;
-    }
-
-    @media (prefers-color-scheme: light) {
-      body {
-        background-color: var(--md-sys-color-surface-light);
-        color: var(--md-sys-color-on-surface-light);
-      }
-      h1, h2 { color: AccentColor; }
-      a { color: AccentColor; }
-      section { background: var(--md-sys-color-surface-variant-light); box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
-    }
-
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: var(--md-sys-color-surface-dark);
-        color: var(--md-sys-color-on-surface-dark);
-      }
-      h1, h2 { color: AccentColor; }
-      a { color: AccentColor; }
-      section { background: var(--md-sys-color-surface-variant-dark); box-shadow: 0 1px 3px rgba(0,0,0,0.5); }
-    }
-
-    body {
-      font-family: 'Roboto', sans-serif;
-      line-height: 1.7;
-      margin: 0;
-      padding: 40px 20px;
-      max-width: 900px;
-      margin-inline: auto;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    section {
-      padding: 20px;
-      margin-bottom: 20px;
-      border-radius: var(--radius);
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 14px;
-      opacity: 0.8;
-      margin-top: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> October 29, 2025</p>
+  <header class="top-app-bar">
+    <div class="brand">
+      <span class="brand-icon">⚡</span>
+      <div class="brand-text">
+        <span class="title">ML Toolkit</span>
+        <span class="subtitle">Privacy & Safety</span>
+      </div>
+    </div>
+    <nav class="nav-actions">
+      <a href="../index.html">Home</a>
+      <a class="filled" href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section>
-    <p>
-      ML Toolkit ("we", "our", or "us") values your privacy. This Privacy Policy describes how we collect, use, and protect your personal and non-personal information when you use our application and related services.
-    </p>
-  </section>
+  <main class="main-shell">
+    <section class="page-hero">
+      <p class="label">Policy</p>
+      <h1>Privacy Policy</h1>
+      <p class="page-meta"><strong>Effective Date:</strong> October 29, 2025</p>
+      <p class="lead">
+        We value your privacy. This policy explains what data we collect, why we collect it, and how we protect it while you use ML Toolkit.
+      </p>
+      <div class="meta-row">
+        <span class="badge">Transparent practices</span>
+        <span class="badge">User-first controls</span>
+      </div>
+    </section>
 
-  <section>
-    <h2>1. Information We Collect</h2>
-    <p>We aim to collect only the data necessary for providing and improving the ML Toolkit experience. The information we collect includes:</p>
-    <ul>
-      <li><strong>Non-personal information:</strong> Device model, OS version, app usage statistics, and crash logs via trusted services like Firebase Analytics and Crashlytics.</li>
-      <li><strong>Account-related data:</strong> If you participate in our reward program, we may store your user ID, reward progress, Shard Points, and redemption history through our backend provider (Supabase).</li>
-      <li><strong>Email information:</strong> Required only when redeeming rewards. Your email is used solely to send digital receipts or order confirmations — never for marketing.</li>
-    </ul>
-  </section>
+    <nav class="page-nav">
+      <a href="#info">Information we collect</a>
+      <a href="#usage">How we use data</a>
+      <a href="#third-party">Third-party services</a>
+      <a href="#rights">Your rights</a>
+    </nav>
 
-  <section>
-    <h2>2. How We Use Your Information</h2>
-    <ul>
-      <li>To maintain and improve app functionality and user experience.</li>
-      <li>To fix bugs, optimize performance, and enhance stability.</li>
-      <li>To securely process reward redemptions and confirm orders.</li>
-      <li>To detect and prevent fraudulent or abusive activity.</li>
-    </ul>
-  </section>
+    <div class="page-stack">
+      <article class="page-card" id="info">
+        <h2>1. Information We Collect</h2>
+        <p>We aim to collect only the data necessary for providing and improving the ML Toolkit experience. The information we collect includes:</p>
+        <ul>
+          <li><strong>Non-personal information:</strong> Device model, OS version, app usage statistics, and crash logs via trusted services like Firebase Analytics and Crashlytics.</li>
+          <li><strong>Account-related data:</strong> If you participate in our reward program, we may store your user ID, reward progress, Shard Points, and redemption history through our backend provider (Supabase).</li>
+          <li><strong>Email information:</strong> Required only when redeeming rewards. Your email is used solely to send digital receipts or order confirmations — never for marketing.</li>
+        </ul>
+      </article>
 
-  <section>
-    <h2>3. Third-Party Services</h2>
-    <p>We rely on trusted third-party platforms for analytics, backend services, and user engagement. These include but are not limited to:</p>
-    <ul>
-      <li><strong>Firebase Analytics & Crashlytics</strong> – for app performance monitoring.</li>
-      <li><strong>Supabase</strong> – for secure management of reward data, task logs, and user sessions.</li>
-    </ul>
-    <p>Each service adheres to its own privacy and data protection practices. We recommend reviewing their privacy policies for further details.</p>
-  </section>
+      <article class="page-card" id="usage">
+        <h2>2. How We Use Your Information</h2>
+        <ul>
+          <li>To maintain and improve app functionality and user experience.</li>
+          <li>To fix bugs, optimize performance, and enhance stability.</li>
+          <li>To securely process reward redemptions and confirm orders.</li>
+          <li>To detect and prevent fraudulent or abusive activity.</li>
+        </ul>
+      </article>
 
-  <section>
-    <h2>4. Data Storage and Security</h2>
-    <p>We use industry-standard security measures such as encrypted communications (HTTPS) and protected databases. While no system can guarantee 100% security, we continuously update our measures to prevent unauthorized access, misuse, or loss of your information.</p>
-  </section>
+      <article class="page-card" id="third-party">
+        <h2>3. Third-Party Services</h2>
+        <p>We rely on trusted third-party platforms for analytics, backend services, and user engagement. These include but are not limited to:</p>
+        <ul>
+          <li><strong>Firebase Analytics &amp; Crashlytics</strong> – for app performance monitoring.</li>
+          <li><strong>Supabase</strong> – for secure management of reward data, task logs, and user sessions.</li>
+        </ul>
+        <p>Each service adheres to its own privacy and data protection practices. We recommend reviewing their privacy policies for further details.</p>
+      </article>
 
-  <section>
-    <h2>5. Data Retention and Deletion</h2>
-    <p>We retain data only as long as necessary to fulfill the purposes described in this policy or as required by law. Users can request the deletion of their stored data (including Shard Points and reward logs) by contacting us directly.</p>
-  </section>
+      <article class="page-card">
+        <h2>4. Data Storage and Security</h2>
+        <p>We use industry-standard security measures such as encrypted communications (HTTPS) and protected databases. While no system can guarantee 100% security, we continuously update our measures to prevent unauthorized access, misuse, or loss of your information.</p>
+      </article>
 
-  <section>
-    <h2>6. Children’s Privacy</h2>
-    <p>Our services are intended for users aged <strong>16 and above</strong>. Users below this age must have parental consent to participate in any reward-related activities. We do not knowingly collect data from users under 16 without consent.</p>
-  </section>
+      <article class="page-card">
+        <h2>5. Data Retention and Deletion</h2>
+        <p>We retain data only as long as necessary to fulfill the purposes described in this policy or as required by law. Users can request the deletion of their stored data (including Shard Points and reward logs) by contacting us directly.</p>
+      </article>
 
-  <section>
-    <h2>7. Data Sharing and Disclosure</h2>
-    <p>We do not sell, rent, or share your personal data with third parties. Limited data may be shared with service providers (e.g., Firebase or Supabase) solely to maintain core app functions. These partners are obligated to handle data securely and only as instructed.</p>
-  </section>
+      <article class="page-card">
+        <h2>6. Children’s Privacy</h2>
+        <p>Our services are intended for users aged <strong>16 and above</strong>. Users below this age must have parental consent to participate in any reward-related activities. We do not knowingly collect data from users under 16 without consent.</p>
+      </article>
 
-  <section>
-    <h2>8. International Data Transfer</h2>
-    <p>Some of our service providers may store or process data outside your country. We ensure that such transfers comply with applicable data protection laws and that your data remains adequately protected.</p>
-  </section>
+      <article class="page-card">
+        <h2>7. Data Sharing and Disclosure</h2>
+        <p>We do not sell, rent, or share your personal data with third parties. Limited data may be shared with service providers (e.g., Firebase or Supabase) solely to maintain core app functions. These partners are obligated to handle data securely and only as instructed.</p>
+      </article>
 
-  <section>
-    <h2>9. Your Rights</h2>
-    <ul>
-      <li>Access and request a copy of your data.</li>
-      <li>Request correction or deletion of stored information.</li>
-      <li>Withdraw consent for optional data processing at any time.</li>
-    </ul>
-    <p>To exercise these rights, contact us using the details below.</p>
-  </section>
+      <article class="page-card">
+        <h2>8. International Data Transfer</h2>
+        <p>Some of our service providers may store or process data outside your country. We ensure that such transfers comply with applicable data protection laws and that your data remains adequately protected.</p>
+      </article>
 
-  <section>
-    <h2>10. Policy Updates</h2>
-    <p>We may revise this Privacy Policy periodically to reflect app updates or legal requirements. The latest version will always be available within the app or on our official website, with the effective date updated accordingly.</p>
-  </section>
+      <article class="page-card" id="rights">
+        <h2>9. Your Rights</h2>
+        <ul>
+          <li>Access and request a copy of your data.</li>
+          <li>Request correction or deletion of stored information.</li>
+          <li>Withdraw consent for optional data processing at any time.</li>
+        </ul>
+        <p>To exercise these rights, contact us using the details below.</p>
+      </article>
 
-  <section>
-    <h2>11. Contact Us</h2>
-    <p>For privacy-related concerns or data requests, reach us at:</p>
-    <p><a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a></p>
-    <p class="small">Developed by <strong>Maharlikoders</strong> — Committed to user privacy and fair play.</p>
-  </section>
+      <article class="page-card">
+        <h2>10. Policy Updates</h2>
+        <p>We may revise this Privacy Policy periodically to reflect app updates or legal requirements. The latest version will always be available within the app or on our official website, with the effective date updated accordingly.</p>
+      </article>
 
-  <footer>
-    <p>© 2025 ML Toolkit. All rights reserved.</p>
-  </footer>
+      <article class="page-card" id="contact">
+        <h2>11. Contact Us</h2>
+        <p>For privacy-related concerns or data requests, reach us at:</p>
+        <p><a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a></p>
+        <p class="small-text">Developed by <strong>Maharlikoders</strong> — Committed to user privacy and fair play.</p>
+      </article>
+
+      <div class="page-footer">
+        <p>© 2025 ML Toolkit. All rights reserved.</p>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
