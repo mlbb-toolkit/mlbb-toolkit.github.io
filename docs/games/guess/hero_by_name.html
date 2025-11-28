@@ -1,139 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess the Hero by Name - Game Instructions</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #333;
-        }
-        .container {
-            background: white;
-            border-radius: 15px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        }
-        h1 {
-            color: #4a5568;
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 2.5em;
-        }
-        h2 {
-            color: #2d3748;
-            border-bottom: 3px solid #667eea;
-            padding-bottom: 10px;
-            margin-top: 30px;
-        }
-        .game-card {
-            background: #f7fafc;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 15px 0;
-            border-left: 5px solid #667eea;
-        }
-        .tip-box {
-            background: #e6fffa;
-            border: 2px solid #4fd1c7;
-            border-radius: 10px;
-            padding: 15px;
-            margin: 15px 0;
-        }
-        .warning {
-            background: #fed7d7;
-            border: 2px solid #f56565;
-            border-radius: 10px;
-            padding: 15px;
-            margin: 15px 0;
-        }
-        .success {
-            background: #c6f6d5;
-            border: 2px solid #48bb78;
-            border-radius: 10px;
-            padding: 15px;
-            margin: 15px 0;
-        }
-        .icon {
-            font-size: 1.2em;
-            margin-right: 10px;
-        }
-        .score-example {
-            background: #edf2f7;
-            border-radius: 8px;
-            padding: 15px;
-            margin: 10px 0;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guess the Hero by Name - ML Toolkit</title>
+  <link rel="stylesheet" href="../../styles.css" />
 </head>
 <body>
-    <div class="container">
-        <h1>🎮 Guess the Hero by Name - Game Instructions</h1>
-
-        <div class="game-card">
-            <h2>📖 How to Play</h2>
-            <p><strong>Guess the Hero</strong> is a fast-paced MLBB hero identification game that tests your knowledge and speed!</p>
-        </div>
-
-        <h2>🎯 Objective</h2>
-        <p>Identify the correct MLBB hero from the image shown as quickly as possible!</p>
-
-        <h2>⏱️ Game Rules</h2>
-        
-        <div class="game-card">
-            <h3>🕹️ Basic Gameplay</h3>
-            <ul>
-                <li>You'll see an image of an MLBB hero</li>
-                <li><strong>4 possible answers</strong> will be displayed</li>
-                <li>Select the <strong>correct hero name</strong> before time runs out</li>
-                <li>Each question has a <strong>5-second time limit</strong></li>
-            </ul>
-        </div>
-
-        <div class="game-card">
-            <h3>⚡ Scoring System</h3>
-            <ul>
-                <li><span class="icon">✅</span> <strong>Correct Answer</strong>: Time remaining is added to your score</li>
-            </ul>
-        </div>
-
-        <div class="tip-box">
-            <h3>🎮 Pro Tips for Success</h3>
-            <ul>
-                <li><strong>Speed + Accuracy = High Score</strong> - Balance both for best results</li>
-                <li><strong>Watch the Timer</strong> - Color changes warn you when time is running out</li>
-                <li><strong>Learn from Mistakes</strong> - Wrong answers show the correct hero</li>
-            </ul>
-        </div>
-
-        <h2>📊 Scoring Examples</h2>
-        
-        <div class="score-example success">
-            <h4>🏆 Perfect Game (All Correct)</h4>
-            <p>Answer all questions correctly in 5 seconds each<br>
-            <em>Top leaderboard position!</em></p>
-        </div>
-
-        <h2>🏅 Leaderboard Strategy</h2>
-        <div class="game-card">
-            <ol>
-                <li><strong>Improve your speed</strong> as you learn the heroes</li>
-                <li><strong>Practice regularly</strong> to recognize heroes faster</li>
-                <li><strong>Stay calm</strong> under time pressure</li>
-            </ol>
-        </div>
-
-        <div class="success">
-            <h3>🚀 Ready to Play?</h3>
-            <p><strong>How well do you know your Mobile Legends heroes? The clock is ticking! ⏰</strong></p>
-            <p>Show everyone who's the fastest hero identifier in the leaderboard!</p>
-        </div>
-    <p style="text-align:center; margin-top:30px; font-size:0.9em; color:#555;">© 2025 ML Toolkit. All rights reserved.</p>
+  <header class="top-app-bar">
+    <div class="brand">
+      <span class="brand-icon">⚡</span>
+      <div class="brand-text">
+        <span class="title">ML Toolkit</span>
+        <span class="subtitle">Guess the Hero</span>
+      </div>
     </div>
+    <nav class="nav-actions">
+      <a href="../../index.html">Home</a>
+      <a class="filled" href="hero_by_image.html">Switch to Image Mode</a>
+    </nav>
+  </header>
+
+  <main class="main-shell">
+    <section class="page-hero">
+      <p class="label">Game Guide</p>
+      <h1>Guess the Hero by Name</h1>
+      <p class="page-meta">Identify MLBB heroes using only the displayed name before the timer runs out.</p>
+      <div class="meta-row">
+        <span class="badge">5-second rounds</span>
+        <span class="badge">4 hero options</span>
+        <span class="badge">Leaderboard scoring</span>
+      </div>
+    </section>
+
+    <nav class="page-nav">
+      <a href="#how">How to play</a>
+      <a href="#rules">Round rules</a>
+      <a href="#scoring">Scoring</a>
+      <a href="#tips">Pro tips</a>
+      <a href="#strategy">Strategy</a>
+    </nav>
+
+    <div class="page-stack">
+      <article class="page-card" id="how">
+        <h2>How it works</h2>
+        <ul>
+          <li>Each round shows <strong>one MLBB hero name</strong>.</li>
+          <li>Four hero portraits appear as answer choices.</li>
+          <li>Select the <strong>matching hero image</strong> before the clock hits zero.</li>
+        </ul>
+      </article>
+
+      <article class="page-card" id="rules">
+        <h2>Round rules</h2>
+        <ul>
+          <li><strong>5 seconds</strong> per question — decisions must be fast.</li>
+          <li>Questions advance automatically after each selection.</li>
+          <li>Incorrect picks reveal the right hero so you can learn for the next round.</li>
+        </ul>
+      </article>
+
+      <article class="page-card" id="scoring">
+        <h2>Scoring breakdown</h2>
+        <ul>
+          <li><strong>Correct answers</strong>: Remaining time is added to your score.</li>
+          <li><strong>Consistent streaks</strong>: Quick, accurate choices push you up the leaderboard.</li>
+        </ul>
+      </article>
+
+      <article class="page-card alert-card" id="tips">
+        <h2>Pro tips</h2>
+        <ul>
+          <li>Use the timer color shift as a warning to lock in an answer.</li>
+          <li>Study hero portraits and signature details to speed up recognition.</li>
+          <li>Stay calm after a miss — the revealed hero helps you improve next round.</li>
+        </ul>
+      </article>
+
+      <article class="page-card" id="strategy">
+        <h2>Leaderboard strategy</h2>
+        <ol>
+          <li><strong>Balance speed and accuracy</strong> for the best time bonuses.</li>
+          <li><strong>Practice routinely</strong> to memorize hero visuals.</li>
+          <li><strong>Warm up</strong> with casual rounds before pushing for records.</li>
+        </ol>
+      </article>
+    </div>
+
+    <div class="page-actions">
+      <a class="btn filled" href="hero_by_image.html">Play the image mode</a>
+      <a class="btn tonal" href="hero_by_role.html">Try role mode</a>
+      <a class="btn text" href="hero_by_lane.html">Explore lane mode</a>
+    </div>
+
+    <p class="page-footer">© 2025 ML Toolkit. All rights reserved.</p>
+  </main>
 </body>
 </html>
