@@ -1,1 +1,13 @@
-/.idea
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool
+coverage/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
