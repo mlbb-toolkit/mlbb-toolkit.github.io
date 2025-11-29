@@ -27,6 +27,7 @@ jobs:
       # Copy docs folder into build output
       - run: cp -r docs build/web/docs
 
+      - run: cp Ads.txt build/web/Ads.txt
       - run: cp app-ads.txt build/web/app-ads.txt
 
       - uses: JamesIves/github-pages-deploy-action@v4
