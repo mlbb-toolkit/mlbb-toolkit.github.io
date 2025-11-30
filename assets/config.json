@@ -8,6 +8,7 @@
         "required": false,
         "enabled": false
     },
+    "data_sources": "https://github.com/azizboy2007/zonghub-server/raw/main/data/",
     "exclusives": [
         {
             "hero_id": 27,
