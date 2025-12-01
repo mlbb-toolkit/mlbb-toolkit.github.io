@@ -1,173 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Account & Data Deletion - ML Toolkit</title>
-
-    <style>
-        body {
-          margin: 0;
-          padding: 0;
-          font-family: Segoe UI, sans-serif;
-          background: linear-gradient(145deg, #0b0f1c, #111a2e 60%, #0c1020);
-          color: #e6e6e6;
-        }
-
-        a {
-          color: #9bb5ff;
-          text-decoration: none;
-        }
-        a:hover {
-          text-decoration: underline;
-        }
-
-        .top-nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding: 1.2rem 2rem;
-          background: rgba(10, 14, 28, 0.6);
-          backdrop-filter: blur(14px);
-          border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .nav-left {
-          display: flex;
-          align-items: center;
-          gap: 0.8rem;
-        }
-
-        .nav-left img {
-          width: 36px;
-          height: 36px;
-          border-radius: 8px;
-        }
-
-        .nav-title {
-          font-size: 1.1rem;
-          font-weight: 600;
-          color: #fff;
-        }
-
-        .nav-links a {
-          margin-left: 1.4rem;
-          color: #cfd7ff;
-          font-size: 0.95rem;
-        }
-
-        .nav-btn {
-          background: #9aa8ff;
-          color: #000;
-          padding: 0.45rem 1.2rem;
-          border-radius: 999px;
-          margin-left: 1.3rem;
-          font-weight: 600;
-        }
-
-        .wrapper {
-          max-width: 1100px;
-          margin: 3rem auto;
-          padding: 0 2rem;
-        }
-
-        .hero {
-          margin-bottom: 3rem;
-        }
-
-        .hero h1 {
-          font-size: 2.6rem;
-          font-weight: 700;
-          color: #ffffff;
-        }
-
-        .hero p {
-          color: #b9c2d9;
-          max-width: 700px;
-          font-size: 1.1rem;
-          margin-top: 0.6rem;
-        }
-
-        .badge-row {
-          margin-top: 1rem;
-          display: flex;
-          gap: 0.8rem;
-        }
-
-        .badge {
-          background: rgba(255, 255, 255, 0.08);
-          border: 1px solid rgba(255, 255, 255, 0.15);
-          padding: 0.35rem 0.9rem;
-          border-radius: 20px;
-          font-size: 0.85rem;
-          color: #e0e5ff;
-        }
-
-        .card {
-          background: rgba(19, 25, 43, 0.55);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          border-radius: 14px;
-          padding: 1.6rem;
-          margin-bottom: 2rem;
-          backdrop-filter: blur(12px);
-        }
-
-        .card h2 {
-          color: #eef0ff;
-          margin-top: 0;
-        }
-
-        .card ul li {
-          margin-bottom: 0.6rem;
-          color: #ced5e6;
-        }
-
-        .alert-card {
-          border-left: 4px solid #8496ff;
-        }
-
-        .contact-box {
-          margin-top: 1rem;
-          background: rgba(255, 255, 255, 0.05);
-          padding: 1rem;
-          border-radius: 10px;
-          border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        footer {
-          text-align: center;
-          padding: 2rem;
-          color: #9aa4c6;
-          font-size: 0.95rem;
-          margin-top: 3rem;
-        }
-    </style>
-
+    <link rel="stylesheet" href="../styles.css"/>
 </head>
+
 <body>
 
-<header class="top-nav">
-    <div class="nav-left">
-        <img src="/assets/icon/icon.png" alt="ML Toolkit">
-        <span class="nav-title">ML Toolkit</span>
+<!-- TOP NAV -->
+<header class="top-app-bar">
+    <div class="brand">
+        <span class="brand-icon">⚡</span>
+        <div class="brand-text">
+            <span class="title">ML Toolkit</span>
+            <span class="subtitle">Account Controls</span>
+        </div>
     </div>
+    <nav class="nav-actions">
+        <a href="https://mlbb-toolkit.github.io">Home</a>
+        <a class="filled" href="#contact">Contact</a>
+    </nav>
 </header>
 
-<div class="wrapper">
+<!-- MAIN -->
+<main class="main-shell">
 
-    <section class="hero">
-        <h1>Account & Data Deletion</h1>
-        <p>
-            You may request the permanent deletion of your ML Toolkit account and all data
-            associated with your ML User ID.
-            This process is irreversible.
+    <!-- HERO -->
+    <section class="page-hero">
+        <p class="label">Data Request</p>
+        <h1>Account &amp; Data Deletion</h1>
+
+        <p class="lead">
+            You may request permanent deletion of your ML Toolkit account and all data linked to
+            your ML User ID.
+            This action is irreversible.
         </p>
-        <div class="badge-row">
+
+        <div class="meta-row">
             <span class="badge">User-Controlled Privacy</span>
             <span class="badge">Permanent Deletion</span>
         </div>
     </section>
 
-    <article class="card alert-card">
+    <!-- WHAT WILL BE DELETED -->
+    <article class="page-card alert-card">
         <h2>What Will Be Deleted</h2>
         <ul>
             <li>Points and rewards balance</li>
@@ -176,40 +54,48 @@
             <li>Points change logs</li>
             <li>User cache and analytics identifiers</li>
         </ul>
-        <p>Once processed, deletion cannot be undone.</p>
+        <p class="small-text">Once processed, deletion cannot be undone.</p>
     </article>
 
-    <article class="card">
+    <!-- EXCEPTIONS -->
+    <article class="page-card">
         <h2>Exceptions</h2>
         <p>
-            Some non-personal aggregated statistics may be retained, such as general usage counts.
-            These do not contain identifiable information.
+            Some non-personal aggregated statistics (e.g., total anonymous usage counts)
+            may be retained for analytics. These do <strong>not</strong> include identifiable data.
         </p>
     </article>
 
-    <article class="card">
+    <!-- HOW TO REQUEST -->
+    <article class="page-card">
         <h2>How to Request Deletion</h2>
         <ul>
-            <li>In-app: Settings -> Delete Account</li>
-            <li>Email: devcloper.url@gmail.com (include ML User ID)</li>
+            <li><strong>In-app:</strong> Settings → Delete Account</li>
+            <li>
+                <strong>Email:</strong>
+                <a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a>
+                — include your ML User ID
+            </li>
         </ul>
     </article>
 
-    <article class="card">
+    <!-- CONTACT -->
+    <article class="page-card" id="contact">
         <h2>Need Assistance?</h2>
         <div class="contact-box">
-            Email us at <a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a>
+            Email us at
+            <a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a>
         </div>
     </article>
 
-</div>
+    <p class="page-footer">
+        © <span id="year"></span> ML Toolkit. All rights reserved.
+    </p>
 
-<footer>
-    © <span id="year"></span> ML Toolkit. All rights reserved.
-</footer>
+</main>
 
 <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>

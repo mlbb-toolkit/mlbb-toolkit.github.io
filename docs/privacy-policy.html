@@ -2,508 +2,223 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Privacy Policy — ML Toolkit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <style>
-        :root {
-          --bg-dark-1: #020617;
-          --bg-dark-2: #0f172a;
-          --bg-dark-3: #111827;
-
-          --bg-light-1: #e0eaff;
-          --bg-light-2: #f5f3ff;
-          --bg-light-3: #f9fafb;
-
-          --primary: #6366f1;
-          --secondary: #a855f7;
-
-          --card-bg-light: rgba(255, 255, 255, 0.85);
-          --card-bg-dark: rgba(15, 23, 42, 0.85);
-          --border-primary-light: rgba(99, 102, 241, 0.18);
-          --border-primary-dark: rgba(129, 140, 248, 0.25);
-          --text-main-light: #020617;
-          --text-main-dark: #e5e7eb;
-          --text-muted-light: #4b5563;
-          --text-muted-dark: #9ca3af;
-        }
-
-        * {
-          box-sizing: border-box;
-          margin: 0;
-          padding: 0;
-        }
-
-        html,
-        body {
-          height: 100%;
-        }
-
-        body {
-          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Inter",
-            "Segoe UI", sans-serif;
-          color: var(--text-main-light);
-          background: linear-gradient(
-            135deg,
-            var(--bg-light-1),
-            var(--bg-light-2),
-            var(--bg-light-3)
-          );
-          -webkit-font-smoothing: antialiased;
-          position: relative;
-          overflow-x: hidden;
-        }
-
-        @media (prefers-color-scheme: dark) {
-          body {
-            color: var(--text-main-dark);
-            background: linear-gradient(
-              135deg,
-              var(--bg-dark-1),
-              var(--bg-dark-2),
-              var(--bg-dark-3)
-            );
-          }
-        }
-
-        /* Top app-bar style header */
-        .app-bar {
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          z-index: 10;
-          height: 64px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          backdrop-filter: blur(16px);
-          background: rgba(248, 250, 252, 0.85);
-          border-bottom: 1px solid rgba(148, 163, 184, 0.25);
-        }
-
-        @media (prefers-color-scheme: dark) {
-          .app-bar {
-            background: rgba(15, 23, 42, 0.88);
-            border-bottom-color: rgba(30, 64, 175, 0.4);
-          }
-        }
-
-        .app-bar-title {
-          font-size: 18px;
-          font-weight: 600;
-          letter-spacing: 0.02em;
-        }
-
-        /* Background blobs */
-        .blob {
-          position: fixed;
-          border-radius: 999px;
-          filter: blur(40px);
-          opacity: 0.7;
-          pointer-events: none;
-          z-index: 0;
-        }
-
-        .blob-1 {
-          width: 260px;
-          height: 260px;
-          top: -120px;
-          left: -80px;
-          background: radial-gradient(
-            circle at 30% 30%,
-            rgba(99, 102, 241, 0.35),
-            transparent 60%
-          );
-        }
-
-        .blob-2 {
-          width: 220px;
-          height: 220px;
-          top: 260px;
-          right: -60px;
-          background: radial-gradient(
-            circle at 40% 40%,
-            rgba(168, 85, 247, 0.3),
-            transparent 60%
-          );
-        }
-
-        /* Main layout */
-        .page {
-          position: relative;
-          z-index: 1;
-          padding-top: 100px;
-          padding-bottom: 60px;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-
-        .page-inner {
-          max-width: 960px;
-          margin: 0 auto;
-        }
-
-        @media (min-width: 650px) {
-          .page {
-            padding-left: 60px;
-            padding-right: 60px;
-          }
-        }
-
-        /* Header block */
-        .hero-card {
-          width: 100%;
-          padding: 30px 24px;
-          border-radius: 28px;
-          border: 1px solid var(--border-primary-light);
-          background: var(--card-bg-light);
-          box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
-          backdrop-filter: blur(12px);
-        }
-
-        @media (prefers-color-scheme: dark) {
-          .hero-card {
-            background: var(--card-bg-dark);
-            border-color: var(--border-primary-dark);
-            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.8);
-          }
-        }
-
-        @media (min-width: 768px) {
-          .hero-card {
-            padding: 32px;
-          }
-        }
-
-        .hero-title {
-          font-size: 28px;
-          font-weight: 700;
-          margin-bottom: 8px;
-        }
-
-        .hero-subtitle {
-          font-size: 16px;
-          line-height: 1.6;
-          color: var(--text-muted-light);
-        }
-
-        @media (prefers-color-scheme: dark) {
-          .hero-subtitle {
-            color: var(--text-muted-dark);
-          }
-        }
-
-        .hero-meta {
-          margin-top: 12px;
-          font-size: 13px;
-          text-transform: uppercase;
-          letter-spacing: 0.12em;
-          color: var(--text-muted-light);
-        }
-
-        @media (prefers-color-scheme: dark) {
-          .hero-meta {
-            color: var(--text-muted-dark);
-          }
-        }
-
-        /* Section cards */
-        .card {
-          width: 100%;
-          margin-top: 32px;
-          padding: 24px 22px;
-          border-radius: 24px;
-          border: 1px solid var(--border-primary-light);
-          background: var(--card-bg-light);
-          box-shadow: 0 14px 32px rgba(15, 23, 42, 0.06);
-          backdrop-filter: blur(10px);
-        }
-
-        @media (prefers-color-scheme: dark) {
-          .card {
-            background: var(--card-bg-dark);
-            border-color: var(--border-primary-dark);
-            box-shadow: 0 18px 36px rgba(15, 23, 42, 0.9);
-          }
-        }
-
-        @media (min-width: 768px) {
-          .card {
-            padding: 28px 32px;
-          }
-        }
-
-        .card-title {
-          font-size: 20px;
-          font-weight: 700;
-          margin-bottom: 14px;
-        }
-
-        .card-body {
-          font-size: 15.5px;
-          line-height: 1.7;
-          white-space: pre-line;
-        }
-
-        .card-body ul {
-          padding-left: 1.2em;
-          margin-top: 0.25rem;
-          margin-bottom: 0.25rem;
-        }
-
-        .card-body li {
-          margin-bottom: 2px;
-        }
-
-        .card-body strong {
-          font-weight: 600;
-        }
-
-        a {
-          color: var(--primary);
-          text-decoration: none;
-        }
-
-        a:hover {
-          text-decoration: underline;
-        }
-
-        /* Small footer spacing */
-        .page-footer-space {
-          height: 40px;
-        }
-    </style>
+    <title>Privacy Policy — ML Toolkit</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-<!-- App bar -->
-<header class="app-bar">
-    <div class="app-bar-title">Privacy Policy</div>
+
+<!-- TOP NAV -->
+<header class="top-app-bar">
+    <div class="brand">
+        <span class="brand-icon">⚡</span>
+        <div class="brand-text">
+            <span class="title">ML Toolkit</span>
+            <span class="subtitle">Privacy Policy</span>
+        </div>
+    </div>
+    <nav class="nav-actions">
+        <a href="../../index.html">Home</a>
+        <a class="filled" href="#contact">Contact</a>
+    </nav>
 </header>
 
-<!-- Background blobs -->
-<div class="blob blob-1"></div>
-<div class="blob blob-2"></div>
+<!-- MAIN -->
+<main class="main-shell">
 
-<!-- Main content -->
-<main class="page">
-    <div class="page-inner">
-        <!-- Header block -->
-        <section class="hero-card">
-            <h1 class="hero-title">Privacy Policy</h1>
-            <p class="hero-subtitle">
-                Learn how ML Toolkit handles privacy, security, and data protection.
-            </p>
-            <p class="hero-meta">This policy may be updated as needed.</p>
-        </section>
+    <!-- HERO -->
+    <section class="page-hero">
+        <p class="label">Policy</p>
+        <h1>Privacy Policy</h1>
+        <p class="lead">
+            Learn how ML Toolkit handles data protection, privacy, and app security.
+        </p>
 
-        <!-- 1 -->
-        <section class="card">
-            <h2 class="card-title">1. No Affiliation With Moonton</h2>
-            <div class="card-body">
-                ML Toolkit is an independent tool and is not affiliated with Moonton or Mobile Legends: Bang Bang.
-                All assets belong to Moonton Games.
-            </div>
-        </section>
+        <div class="meta-row">
+            <span class="badge">Updated as needed</span>
+            <span class="badge">Zero personal data</span>
+            <span class="badge">User anonymity</span>
+        </div>
+    </section>
 
-        <!-- 2 -->
-        <section class="card">
-            <h2 class="card-title">2. Information We Collect</h2>
-            <div class="card-body">
-                We only collect minimal, non-identifiable data needed for app functionality.
-            </div>
-        </section>
+    <!-- CARDS -->
+    <div class="page-stack">
 
-        <!-- 2.1 -->
-        <section class="card">
-            <h2 class="card-title">2.1 Automatically Collected (Non-Identifiable)</h2>
-            <div class="card-body">
-                We may collect anonymous technical data such as:
-                • Device model &amp; OS version
-                • Crash logs
-                • Basic performance analytics
-
-                We do NOT collect:
-                • IP address
-                • Location
-                • Personal identity data
-            </div>
-        </section>
-
-        <!-- 2.2 -->
-        <section class="card">
-            <h2 class="card-title">2.2 User-Provided Data</h2>
-            <div class="card-body">
-                We do NOT collect identity data.
-
-                Only stored optionally:
-                • In-app points
-                • Cosmetic import logs
-
-                Not stored:
-                • Names
-                • Referral codes
-                • MLBB login data
-            </div>
-        </section>
-
-        <!-- 3 -->
-        <section class="card">
-            <h2 class="card-title">3. Permissions We Use</h2>
-            <div class="card-body">
-                We request only the minimum permissions required for the app to function.
-            </div>
-        </section>
-
-        <!-- 3.1 -->
-        <section class="card">
-            <h2 class="card-title">3.1 Storage Access</h2>
-            <div class="card-body">
-                Used only for user-selected cosmetic imports.
-            </div>
-        </section>
-
-        <!-- 3.2 -->
-        <section class="card">
-            <h2 class="card-title">3.2 Internet Access</h2>
-            <div class="card-body">
-                Used only for:
-                • Cosmetic updates
-                • Reward system
-                • Anonymous analytics
-                • Backend communication
-            </div>
-        </section>
-
-        <!-- 4 -->
-        <section class="card">
-            <h2 class="card-title">4. How We Use Information</h2>
-            <div class="card-body">
-                • Operate app features
-                • Track reward points
-                • Improve stability
-                • Prevent abuse
-
-                No ads, no tracking, no profiling.
-            </div>
-        </section>
-
-        <!-- 5 -->
-        <section class="card">
-            <h2 class="card-title">5. Third-Party Providers</h2>
-            <div class="card-body">
-                We rely on trusted third-party services to support core app functionality.
-            </div>
-        </section>
-
-        <!-- 5.1 -->
-        <section class="card">
-            <h2 class="card-title">5.1 Supabase (Anonymous)</h2>
-            <div class="card-body">
-                Used for reward logs and points.
-                No tokens, no login — anonymous only.
-            </div>
-        </section>
-
-        <!-- 5.2 -->
-        <section class="card">
-            <h2 class="card-title">5.2 Analytics</h2>
-            <div class="card-body">
-                Anonymous usage analytics only (if enabled).
-            </div>
-        </section>
-
-        <!-- 6 -->
-        <section class="card">
-            <h2 class="card-title">6. Data Sharing</h2>
-            <div class="card-body">
-                We NEVER sell user data.
-
-                Shared only with:
-                • Supabase
-                • Analytics platforms
-                • Legal authorities if required
-            </div>
-        </section>
-
-        <!-- 7 -->
-        <section class="card">
-            <h2 class="card-title">7. Data Retention</h2>
-            <div class="card-body">
-                • Rewards: up to 12 months
-                • Analytics: ~24 months
-                • Import logs: temporary
-            </div>
-        </section>
-
-        <!-- 8 -->
-        <section class="card">
-            <h2 class="card-title">8. Children’s Privacy</h2>
-            <div class="card-body">
-                Not intended for children under age 13.
-            </div>
-        </section>
-
-        <!-- 9 -->
-        <section class="card">
-            <h2 class="card-title">9. Cosmetic-Only Disclaimer</h2>
-            <div class="card-body">
-                ML Toolkit only provides visual cosmetic customization.
-                It does NOT modify gameplay or give competitive advantages.
-            </div>
-        </section>
-
-        <!-- 10 -->
-        <section class="card">
-            <h2 class="card-title">10. Anti-Cheat &amp; Fair Play Policy</h2>
-            <div class="card-body">
-                Strictly prohibited:
-                • Map hacks
-                • Drone views
-                • Radar hacks
-                • Cooldown cheats
-                • Damage/defense mods
-                • Any gameplay-altering methods
-            </div>
-        </section>
-
-        <!-- 11 -->
-        <section class="card">
-            <h2 class="card-title">11. Security Practices</h2>
-            <div class="card-body">
-                All communication uses HTTPS.
-                Users remain fully anonymous.
-            </div>
-        </section>
-
-        <!-- 12 -->
-        <section class="card">
-            <h2 class="card-title">12. DMCA &amp; Copyright</h2>
-            <div class="card-body">
+        <article class="page-card">
+            <h2>No Affiliation With Moonton</h2>
+            <p>
+                ML Toolkit is not affiliated with Moonton or Mobile Legends: Bang Bang.
                 All MLBB assets belong to Moonton Games.
-                DMCA requests are honored immediately.
-            </div>
-        </section>
+            </p>
+        </article>
 
-        <!-- 13 -->
-        <section class="card">
-            <h2 class="card-title">13. Changes to This Policy</h2>
-            <div class="card-body">
-                This policy may be updated as needed. Continued use of the app after changes indicates acceptance of the updated policy.
-            </div>
-        </section>
+        <article class="page-card">
+            <h2>Information We Collect</h2>
+            <p>ML Toolkit collects only minimal data required for the app to function.</p>
+        </article>
 
-        <!-- 14 -->
-        <section class="card">
-            <h2 class="card-title">14. Contact Us</h2>
-            <div class="card-body">
-                📩 Email: <a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a>
-                🌐 Website: <a href="https://mlbb-toolkit.github.io" target="_blank" rel="noopener">https://mlbb-toolkit.github.io</a>
-            </div>
-        </section>
+        <article class="page-card">
+            <h2>Automatically Collected (Non-Identifiable)</h2>
+            <ul>
+                <li>Device model & OS version</li>
+                <li>Anonymous crash logs</li>
+                <li>Basic performance analytics</li>
+            </ul>
+            <p><strong>We do NOT collect:</strong></p>
+            <ul>
+                <li>IP address</li>
+                <li>Location</li>
+                <li>Personal identity information</li>
+            </ul>
+        </article>
 
-        <div class="page-footer-space"></div>
+        <article class="page-card">
+            <h2>User-Provided Data</h2>
+            <p>We do <strong>not</strong> collect identity data.</p>
+
+            <p>Optional stored data:</p>
+            <ul>
+                <li>Names</li>
+                <li>Referral codes</li>
+                <li>In-app points</li>
+                <li>Cosmetic import logs</li>
+            </ul>
+        </article>
+
+        <article class="page-card">
+            <h2>Permissions We Use</h2>
+            <p>We request only the minimum permissions needed for functionality.</p>
+        </article>
+
+        <article class="page-card">
+            <h2>Storage Access</h2>
+            <p>Used only for user-selected cosmetic imports.</p>
+        </article>
+
+        <article class="page-card">
+            <h2>Internet Access</h2>
+            <ul>
+                <li>Cosmetic updates</li>
+                <li>Reward system / Points log</li>
+                <li>Anonymous analytics</li>
+                <li>Backend communication</li>
+            </ul>
+        </article>
+
+        <article class="page-card">
+            <h2>How We Use Information</h2>
+            <ul>
+                <li>Operate core app features</li>
+                <li>Track reward points</li>
+                <li>Improve stability</li>
+                <li>Prevent abuse</li>
+            </ul>
+
+            <p><strong>No ads. No tracking. No profiling.</strong></p>
+        </article>
+
+        <article class="page-card">
+            <h2>Third-Party Providers</h2>
+            <p>We use trusted third-party services to support app functionality.</p>
+        </article>
+
+        <article class="page-card">
+            <h2>Supabase (Anonymous)</h2>
+            <p>
+                Used for reward logs and points.
+                No tokens. No user accounts. Anonymous only.
+            </p>
+        </article>
+
+        <article class="page-card">
+            <h2>Analytics</h2>
+            <p>Only anonymous usage analytics (if enabled).</p>
+        </article>
+
+        <article class="page-card">
+            <h2>Data Sharing</h2>
+            <p>ML Toolkit <strong>never</strong> sells data.</p>
+            <p>Shared only with:</p>
+            <ul>
+                <li>Supabase (reward system)</li>
+                <li>Anonymous analytics providers</li>
+                <li>Legal authorities — when required</li>
+            </ul>
+        </article>
+
+        <article class="page-card">
+            <h2>Data Retention</h2>
+            <ul>
+                <li>Rewards data: ~12 months</li>
+                <li>Analytics logs: ~24 months</li>
+                <li>Import logs: temporary</li>
+            </ul>
+        </article>
+
+        <article class="page-card">
+            <h2>Children's Privacy</h2>
+            <p>ML Toolkit is not intended for children under age 13.</p>
+        </article>
+
+        <article class="page-card">
+            <h2>Cosmetic-Only Disclaimer</h2>
+            <p>
+                ML Toolkit provides cosmetic customizations only.
+                It does not modify gameplay or provide advantages.
+            </p>
+        </article>
+
+        <article class="page-card">
+            <h2>Anti-Cheat & Fair Play Policy</h2>
+            <p>Strictly prohibited:</p>
+            <ul>
+                <li>Map hacks</li>
+                <li>Drone views</li>
+                <li>Cooldown cheats</li>
+                <li>Damage/defense mods</li>
+                <li>Radar or ESP hacks</li>
+            </ul>
+        </article>
+
+        <article class="page-card">
+            <h2>Security Practices</h2>
+            <p>
+                All ML Toolkit communication uses HTTPS.
+                Users remain fully anonymous.
+            </p>
+        </article>
+
+        <article class="page-card">
+            <h2>DMCA & Copyright</h2>
+            <p>
+                All MLBB assets belong to Moonton.
+                DMCA takedown requests are honored immediately.
+            </p>
+        </article>
+
+        <article class="page-card">
+            <h2>Changes To This Policy</h2>
+            <p>
+                This policy may update over time.
+                Continued use of the app implies acceptance of revisions.
+            </p>
+        </article>
+
+        <article class="page-card" id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                📩 Email:
+                <a href="mailto:devcloper.url@gmail.com">devcloper.url@gmail.com</a><br />
+                🌐 Website:
+                <a href="https://mlbb-toolkit.github.io" target="_blank">https://mlbb-toolkit.github.io</a>
+            </p>
+        </article>
+
     </div>
+
+    <p class="page-footer">© 2025 ML Toolkit. All rights reserved.</p>
+
 </main>
 </body>
 </html>
