@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retribution Master — ML Toolkit</title>
+    <link rel="stylesheet" href="../../styles.css" />
+</head>
+<body>
+
+<!-- TOP NAV -->
+<header class="top-app-bar">
+    <div class="brand">
+        <span class="brand-icon">⚡</span>
+        <div class="brand-text">
+            <span class="title">ML Toolkit</span>
+            <span class="subtitle">Retribution Master</span>
+        </div>
+    </div>
+    <nav class="nav-actions">
+        <a href="https://mlbb-toolkit.github.io">Home</a>
+    </nav>
+</header>
+
+<main class="main-shell">
+
+    <!-- HERO BLOCK -->
+    <section class="page-hero">
+        <p class="label">Game Guide</p>
+        <h1>Retribution Master</h1>
+        <p class="lead">
+            Master the art of last-hitting jungle objectives using Retribution.
+            This tool replicates real MLBB timing mechanics to help junglers secure objectives
+            with consistent precision and reaction time.
+        </p>
+
+        <div class="meta-row">
+            <span class="badge">Realistic HP decay</span>
+            <span class="badge">Kill-range glow</span>
+            <span class="badge">Timing practice</span>
+        </div>
+    </section>
+
+    <!-- SECTION NAV -->
+    <nav class="page-nav">
+        <a href="#how">How it works</a>
+        <a href="#rules">Mechanics</a>
+        <a href="#states">Retri States</a>
+        <a href="#tips">Pro tips</a>
+    </nav>
+
+    <div class="page-stack">
+
+        <!-- HOW TO PLAY -->
+        <article class="page-card" id="how">
+            <h2>How it works</h2>
+            <ul>
+                <li>A mini Lord appears with 10,000 HP.</li>
+                <li>Your Retribution damage is based on a random hero level (Lv. 4–15).</li>
+                <li>The Lord takes damage over time from simulated “team damage.”</li>
+                <li>Once the Lord becomes killable, the HP bar glows red.</li>
+                <li>Your goal is to time your Retribution perfectly to secure the kill.</li>
+            </ul>
+        </article>
+
+        <!-- MECHANICS -->
+        <article class="page-card" id="rules">
+            <h2>Gameplay Mechanics</h2>
+            <ul>
+                <li>Team damage is applied every 400 ms.</li>
+                <li>Kill-window opens when <strong>Lord HP ≤ your Retribution damage</strong>.</li>
+                <li>Retribution cast too early instantly ends the round.</li>
+                <li>Particles play on a perfect Retribution kill.</li>
+                <li>Manual restart ensures consistent practice flow.</li>
+            </ul>
+        </article>
+
+        <!-- RETRI STATES -->
+        <article class="page-card" id="states">
+            <h2>Retribution Result States</h2>
+            <ol>
+                <li>
+                    <strong>Perfect:</strong> You cast Retribution exactly when the Lord becomes killable.
+                    A burst effect plays as confirmation.
+                </li>
+                <li>
+                    <strong>Too Early:</strong> You cast Retribution before the kill-window.
+                    The round ends immediately.
+                </li>
+                <li>
+                    <strong>Missed:</strong> The Lord dies from team damage before you cast Retribution.
+                </li>
+            </ol>
+        </article>
+
+        <!-- PRO TIPS -->
+        <article class="page-card alert-card" id="tips">
+            <h2>Pro Tips</h2>
+            <ul>
+                <li>Watch the HP bar — it turns red in kill-range.</li>
+                <li>Learn the approximate thresholds for each Retribution level.</li>
+                <li>Don’t spam! Expect the kill-window and react naturally.</li>
+                <li>Try practicing at different hero levels for variety.</li>
+                <li>Focus on consistent timing rather than rushing.</li>
+            </ul>
+        </article>
+
+    </div>
+
+    <!-- ACTION BUTTONS -->
+    <div class="page-actions">
+        <a class="btn text" href="https://mlbb-toolkit.github.io">Back to Home</a>
+    </div>
+
+    <p class="page-footer">© 2025 ML Toolkit. All rights reserved.</p>
+
+</main>
+</body>
+</html>
