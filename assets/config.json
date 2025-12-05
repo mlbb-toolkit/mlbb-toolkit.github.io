@@ -35,6 +35,11 @@
             "skin_id": 1
         }
     ],
+    "manual_inject": {
+        "message": "This experimental feature allows you to replace/import scripts downloaded from YouTube or any other source.",
+        "tutorial": "https://youtu.be/0xTQLW_SduY",
+        "enabled": true
+    },
     "open_testing_apps": [
         {
             "icon": "",
