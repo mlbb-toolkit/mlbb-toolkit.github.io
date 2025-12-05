@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -750,15 +751,26 @@ class AppInfoSectionCard extends StatelessWidget {
 
         final details = snap.data!["app_details"];
         final installs = formatInstalls(details["realInstalls"]);
+        final score = details["score"];
+
+        // Check if score is valid and > 0
+        final bool hasValidScore = score != null &&
+            (score is num ? score > 0 :
+            (double.tryParse(score.toString()) ?? 0) > 0);
+
         final items = [
           (installs.isEmpty ? null : installs, "Downloads"),
           (details["version"], "Version"),
-          (details["score"]?.toString(), "Rating"),
+          if (hasValidScore) (score, "Rating"),
+          // Keep raw score for star calculation
           (details["released"], "Released On"),
           (details["lastUpdatedOn"], "Last Updated On"),
         ].where((item) {
           final value = item.$1;
-          return value != null && value.toString().trim().isNotEmpty;
+          return value != null && value
+              .toString()
+              .trim()
+              .isNotEmpty;
         }).toList();
 
         return Container(
@@ -799,13 +811,21 @@ class AppInfoSectionCard extends StatelessWidget {
                               .withValues(alpha: 0.65),
                         ),
                       ),
-                      Text(
-                        item.$1,
-                        style: const TextStyle(
-                          fontSize: 15.5,
-                          fontWeight: FontWeight.w600,
+                      if (item.$2 == "Rating")
+                      // Display stars for rating
+                        _buildStarRating(
+                          context,
+                          item.$1 is num ? item.$1.toDouble() :
+                          double.tryParse(item.$1.toString()) ?? 0.0,
+                        )
+                      else
+                        Text(
+                          item.$1.toString(),
+                          style: const TextStyle(
+                            fontSize: 15.5,
+                            fontWeight: FontWeight.w600,
+                          ),
                         ),
-                      ),
                     ],
                   ),
                 ),
@@ -813,6 +833,43 @@ class AppInfoSectionCard extends StatelessWidget {
           ),
         );
       },
+    );
+  }
+
+  // Star rating widget
+  Widget _buildStarRating(BuildContext context, double rating) {
+    final theme = Theme.of(context);
+
+    return Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        RatingBar.builder(
+          initialRating: rating,
+          minRating: 0,
+          direction: Axis.horizontal,
+          allowHalfRating: true,
+          ignoreGestures: true,
+          // Make it read-only
+          itemCount: 5,
+          itemSize: 20,
+          itemPadding: const EdgeInsets.symmetric(horizontal: 1.0),
+          itemBuilder: (context, _) =>
+              Icon(
+                Icons.star,
+                color: Colors.amber[700],
+              ),
+          onRatingUpdate: (_) {},
+        ),
+        const SizedBox(width: 8),
+        Text(
+          rating.toStringAsFixed(1),
+          style: TextStyle(
+            fontSize: 15.5,
+            fontWeight: FontWeight.w600,
+            color: theme.colorScheme.onSurface,
+          ),
+        ),
+      ],
     );
   }
 }
