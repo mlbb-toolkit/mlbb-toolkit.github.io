@@ -1,6 +1,5 @@
 name: Auto-generated app info
 
-# 🔒 Needed so GITHUB_TOKEN can push commits
 permissions:
   contents: write
 
@@ -14,10 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      # Checkout gh-pages branch
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v3
         with:
-          persist-credentials: true   # Important for pushing
+          persist-credentials: true
+          ref: gh-pages
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -35,11 +36,16 @@ jobs:
           git config --local user.email "elfilibusterismo.contact@gmail.com"
           git config --local user.name "GitHub Actions"
 
-          git add assets/app.json
+          # Ensure directory exists
+          mkdir -p assets/assets
 
-          # Prevent error if nothing changed
+          # Move file if your script writes to ./assets/app.json
+          cp assets/app.json assets/assets/app.json
+
+          git add assets/assets/app.json
+
           git commit -m "Auto-generated app info $(date '+%Y-%m-%d')" || echo "No changes to commit"
 
-          git push
+          git push origin HEAD:gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
