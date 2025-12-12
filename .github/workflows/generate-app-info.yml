@@ -28,7 +28,9 @@ jobs:
         run: pip install google-play-scraper requests
 
       - name: Generate JSON file
-        run: python app_info_generator.py
+        run: |
+          mkdir -p /tmp/appinfo
+          python app_info_generator.py /tmp/appinfo/app.json
 
       - name: Switch to gh-pages
         run: |
@@ -38,11 +40,11 @@ jobs:
       - name: Commit and push JSON
         run: |
           mkdir -p assets/assets
-          cp assets/app.json assets/assets/app.json
+          cp /tmp/appinfo/app.json assets/assets/app.json
 
           git config user.email "elfilibusterismo.contact@gmail.com"
           git config user.name "GitHub Actions"
 
           git add assets/assets/app.json
-          git commit -m "Auto-generated app info $(date '+%Y-%m-%d')" || echo "No changes"
+          git commit -m "Auto-generated app info $(date '+%Y-%m-%d')" || echo "No changes to commit"
           git push origin gh-pages

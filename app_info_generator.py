@@ -1,17 +1,30 @@
 import json
+import sys
+import os
 from google_play_scraper import app, reviews, Sort
 from datetime import datetime
 
 def convert_datetime(obj):
-    """JSON serializer for objects not serializable by default json code"""
     if isinstance(obj, datetime):
         return obj.isoformat()
-    raise TypeError(f'Type {type(obj)} not serializable')
+    raise TypeError(f"Type {type(obj)} not serializable")
 
+# --------------------------------------
+# Output path (CLI arg or default)
+# --------------------------------------
+output_path = sys.argv[1] if len(sys.argv) > 1 else "assets/app.json"
+
+# Ensure directory exists
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+# --------------------------------------
+# Fetch app data
+# --------------------------------------
 app_data = app(
-    'com.elfilibustero.toolkit',
-    lang='en',
-    country='us')
+    "com.elfilibustero.toolkit",
+    lang="en",
+    country="us"
+)
 
 app_details = {
     "title": app_data.get("title"),
@@ -24,10 +37,13 @@ app_details = {
     "lastUpdatedOn": app_data.get("lastUpdatedOn")
 }
 
+# --------------------------------------
+# Fetch reviews
+# --------------------------------------
 reviews_data, _ = reviews(
-    'com.elfilibustero.toolkit',
-    lang='en',
-    country='us',
+    "com.elfilibustero.toolkit",
+    lang="en",
+    country="us",
     sort=Sort.NEWEST,
     count=5
 )
@@ -38,5 +54,10 @@ combined_data = {
     "generated_at": datetime.now().isoformat()
 }
 
-with open('assets/app.json', 'w') as json_file:
+# --------------------------------------
+# Write output
+# --------------------------------------
+with open(output_path, "w", encoding="utf-8") as json_file:
     json.dump(combined_data, json_file, indent=2, default=convert_datetime)
+
+print(f"✅ App info generated at: {output_path}")
