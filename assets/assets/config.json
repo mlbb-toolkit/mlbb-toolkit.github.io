@@ -39,9 +39,10 @@
         {
             "hero_id": 7,
             "thumbnail": "https://en.esportsku.com/wp-content/uploads/2021/01/Untitled-267.jpg",
-            "name": "Demon Hunter(Dante) - Banezy",
+            "name": "Demon Hunter(Dante) - Banezy Official",
             "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/070.zip",
-            "tag": ""
+            "tag": "",
+            "source": "https://www.youtube.com/@banzyo-Jesda"
         }
     ],
     "manual_inject": {
