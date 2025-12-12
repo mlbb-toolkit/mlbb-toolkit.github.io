@@ -11,28 +11,36 @@
     "data_sources": "https://github.com/azizboy2007/zonghub-server/raw/main/data/",
     "exclusives": [
         {
-            "hero_id": 27,
-            "skin_id": 4
-        },
-        {
-            "hero_id": 117,
-            "skin_id": 3
-        },
-        {
-            "hero_id": 115,
-            "skin_id": 4
-        },
-        {
-            "hero_id": 6,
-            "skin_id": 5
-        },
-        {
-            "hero_id": 96,
+            "hero_id": 33,
             "skin_id": 6
         },
         {
-            "hero_id": 101,
-            "skin_id": 1
+            "hero_id": 104,
+            "skin_id": 3
+        },
+        {
+            "hero_id": 13,
+            "skin_id": 11
+        },
+        {
+            "hero_id": 91,
+            "skin_id": 5
+        },
+        {
+            "hero_id": 97,
+            "skin_id": 7
+        },
+        {
+            "hero_id": 79,
+            "skin_id": 9
+        },
+        {
+            "hero_id": 79,
+            "skin_id": 10
+        },
+        {
+            "hero_id": 71,
+            "skin_id": 6
         }
     ],
     "ml_toolkit": [
