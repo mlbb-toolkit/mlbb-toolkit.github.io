@@ -43,6 +43,7 @@
             "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/070.zip",
             "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
             "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
             "show": true
         }
     ],
