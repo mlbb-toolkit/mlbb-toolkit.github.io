@@ -16,7 +16,6 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v3
         with:
-          ref: main
           persist-credentials: true
 
       - name: Set up Python
@@ -30,19 +29,11 @@ jobs:
       - name: Generate JSON file
         run: python app_info_generator.py
 
-      - name: Switch to gh-pages
-        run: |
-          git fetch origin gh-pages
-          git checkout gh-pages
-
       - name: Commit and push JSON
         run: |
-          mkdir -p assets/assets
-          cp assets/app.json assets/assets/app.json
-
           git config user.email "elfilibusterismo.contact@gmail.com"
           git config user.name "GitHub Actions"
 
-          git add assets/assets/app.json
+          git add assets/app.json
           git commit -m "Auto-generated app info $(date '+%Y-%m-%d')" || echo "No changes"
-          git push origin gh-pages
+          git push
