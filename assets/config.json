@@ -41,8 +41,9 @@
             "thumbnail": "https://en.esportsku.com/wp-content/uploads/2021/01/Untitled-267.jpg",
             "name": "Demon Hunter(Dante) - Banezy Official",
             "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/070.zip",
-            "tag": "",
-            "source": "https://www.youtube.com/@banzyo-Jesda"
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "show": true
         }
     ],
     "manual_inject": {
