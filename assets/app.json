@@ -2,14 +2,40 @@
   "app_details": {
     "title": "ML Toolkit",
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
-    "version": "2.0.2",
+    "version": "2.1.1-fix1",
     "score": 0,
-    "realInstalls": 55754,
+    "realInstalls": 58957,
     "installs": "50,000+",
     "released": "Oct 2, 2025",
-    "lastUpdatedOn": "Dec 7, 2025"
+    "lastUpdatedOn": "Dec 12, 2025"
   },
   "reviews": [
+    {
+      "reviewId": "eec21d59-d1dd-4c21-a08b-72359a3ad9d1",
+      "userName": "Secret Person",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIBUL5zdMcBGzO02tZFhNk50-xm7ruJeYjO9GtzA8w3wMFnAQ=mo",
+      "content": "good",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.0.2",
+      "at": "2025-12-11T14:29:58",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.0.2"
+    },
+    {
+      "reviewId": "a7daddff-625a-4c3d-941b-599756576d5d",
+      "userName": "Tugspak 123",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXFcy6dY9EQq4_5ArVzDDnPm9PR3_LicpH34stsu475m1KBCvX7",
+      "content": "the adlaw's chosen lapu collector is good. But the effects and catch phrases sounds are incomplete like the Jet on lapu collector don't have effect",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.0.2",
+      "at": "2025-12-11T12:43:47",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.0.2"
+    },
     {
       "reviewId": "5712e06b-87d4-4dc2-9b1e-1dd8ba1d35f2",
       "userName": "Maverick Bongbong",
@@ -48,33 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "2.0.2"
-    },
-    {
-      "reviewId": "d242212c-8cbb-4332-8f85-418e70db3554",
-      "userName": "carlsten anjai",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLAsUetDdEh19ylcRu6EQclVl15VPGhHE70BwzpORKkX0CnmA=mo",
-      "content": "the first time Injecting it was good but then the next day the Injected skin was gone I thought I was a bug I Inject the same skin then I play a match the skin didn't appear and heroes was gone bad injector",
-      "score": 1,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2025-12-09T06:01:27",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "2957498c-ffad-4771-a8a6-85794b44bba8",
-      "userName": "Prajol lama",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKQONc21xl4zrHZux6cfu22mgbBV3rAFkx9WW0ZF0gzt4D3Og=mo",
-      "content": "its loading is very fast and easy to use",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.0.2",
-      "at": "2025-12-08T23:55:08",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.0.2"
     }
   ],
-  "generated_at": "2025-12-12T05:07:09.852362"
+  "generated_at": "2025-12-13T00:53:56.014228"
 }
