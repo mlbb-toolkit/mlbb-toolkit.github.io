@@ -4,7 +4,7 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "2.1.1-fix1",
     "score": 0,
-    "realInstalls": 59268,
+    "realInstalls": 60596,
     "installs": "50,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Dec 12, 2025"
@@ -76,5 +76,5 @@
       "appVersion": null
     }
   ],
-  "generated_at": "2025-12-14T01:01:31.603462"
+  "generated_at": "2025-12-15T00:59:33.399185"
 }
