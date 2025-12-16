@@ -4,12 +4,38 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "2.1.1-fix1",
     "score": 0,
-    "realInstalls": 60596,
+    "realInstalls": 61942,
     "installs": "50,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Dec 12, 2025"
   },
   "reviews": [
+    {
+      "reviewId": "0a437260-dab2-4154-ba50-1e4097209d9f",
+      "userName": "Adikk adikku",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIWSGy_5WFZ62oTWwTlrdjkIjhBelAI5LUQQHALnykY3difyQ=mo",
+      "content": "best apps",
+      "score": 3,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.0.2",
+      "at": "2025-12-14T19:48:01",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.0.2"
+    },
+    {
+      "reviewId": "02d25e2d-8ee2-43ba-ad7b-095ef89edf4e",
+      "userName": "Alain Mika Andres",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXfcTGHc0P4t1jvjwwmuUBDp9kuYj_HEZ771iBMYDXBS6qGFF3Z",
+      "content": "Bad UI on tablet.",
+      "score": 1,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2025-12-14T10:53:18",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
     {
       "reviewId": "1b73f53a-6a1c-4657-a061-cb2ac9e9c103",
       "userName": "Ibasigongbe Hemang",
@@ -48,33 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": null
-    },
-    {
-      "reviewId": "0e7f024f-298f-44dc-9401-a8f1b2577ad6",
-      "userName": "Miguel Sion",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK3nY-t3VLWsZqcXdXQcPEUV1vJCeDo503foZq2PojKBn8OPA=mo",
-      "content": "The app is great and all but I don't understand why they switched from origin to this? And I also got temporarily banned for a day injecting only 4 skins sadly :(",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2025-12-12T14:04:30",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "d04bf270-ec38-4c6d-86d1-f0c445d3698b",
-      "userName": "Kristalamae Nabua",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJDUgmdtVVqwcluwF3KBkKCKgFe2ALALGtSJeIIp6tvXIaX3Q=mo",
-      "content": "isang download nyu ban agad",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2025-12-12T11:02:21",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
     }
   ],
-  "generated_at": "2025-12-15T00:59:33.399185"
+  "generated_at": "2025-12-16T00:57:55.858746"
 }
