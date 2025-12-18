@@ -4,12 +4,51 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "2.1.1-fix1",
     "score": 0,
-    "realInstalls": 61942,
+    "realInstalls": 62993,
     "installs": "50,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Dec 12, 2025"
   },
   "reviews": [
+    {
+      "reviewId": "b3848af6-192f-4366-b6a0-fc5d28a25d73",
+      "userName": "Leejae Garpesa",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVEs6zOTon6ntMehd0SxLdIKocQhSFjRARqEda1VgRdutv7I_4",
+      "content": "So perfect effect and so smooth",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-16T19:08:26",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
+    {
+      "reviewId": "5160c0d1-f87c-4ac3-8acc-9dc249bbe2a5",
+      "userName": "Leonard Lastimoso",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL-N-ABfbim2yCh4eqjsGZ3RlAuuvaP65Vbt1IxFESUzaaL_g=mo",
+      "content": "is the best injector ever",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2025-12-16T15:50:29",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "fae95688-9e14-4c29-aeb1-c1f9c07284e9",
+      "userName": "Nhitz Bonifacio",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKDldpSWNE-NXxz4hGP9gWc9LlRh1quRIxPyy3gWvBiHajY-g=mo",
+      "content": "i will give us a one star my skins are not downloading in the game",
+      "score": 1,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-16T04:38:42",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
     {
       "reviewId": "f37d5310-4a25-4a3d-91b4-164573fcf221",
       "userName": "A Pu",
@@ -35,46 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "2.0.2"
-    },
-    {
-      "reviewId": "02d25e2d-8ee2-43ba-ad7b-095ef89edf4e",
-      "userName": "Alain Mika Andres",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXfcTGHc0P4t1jvjwwmuUBDp9kuYj_HEZ771iBMYDXBS6qGFF3Z",
-      "content": "Bad UI on tablet.",
-      "score": 1,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2025-12-14T10:53:18",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "1b73f53a-6a1c-4657-a061-cb2ac9e9c103",
-      "userName": "Ibasigongbe Hemang",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocImRzBa24f8KfNilDackQ80aQ3lkL0kYaTp3QAZS-JAjeNe_A=mo",
-      "content": "much better than previous one",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.0.2",
-      "at": "2025-12-12T17:41:24",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.0.2"
-    },
-    {
-      "reviewId": "3bc65e67-cd72-435b-bc13-15049a612baf",
-      "userName": "Danzo Brielle Jose",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKIiFaYkYEDaoae11Ow6ja5yljK_vT_5Lxp_RFxfC_SYO6nqMXL=mo",
-      "content": "It's a good tool for low budgets player will wanted to try the skin for their own risk, but there's something missing for it to become 5 star. if it's possible for the Heroes Events skin can also change, like literally every skin on a hero can change. example: Layla - Miss Hikari to (Other skin, like legend, basic, starlight... etc,) You get the point . Also, a little advance update, like now. The spongebob collab skin for gloo to Patrick, and Cyclop to spongebob. I'll appreciate this alot",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.0.2",
-      "at": "2025-12-12T16:57:01",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.0.2"
     }
   ],
-  "generated_at": "2025-12-17T00:53:19.484668"
+  "generated_at": "2025-12-18T00:54:19.354558"
 }
