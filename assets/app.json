@@ -11,6 +11,32 @@
   },
   "reviews": [
     {
+      "reviewId": "fabb70a2-f250-42ae-99cb-3b1823cd20dc",
+      "userName": "Carlo Pajaron",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVdUI6x1-Sx4VZLg8vPm28JFYIFR57HBG9zUdFrPcqRrGx27wVD",
+      "content": "Please fix freya skin, its not working only the stack orbs working",
+      "score": 1,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-17T23:55:38",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
+    {
+      "reviewId": "a11f0317-7934-4ded-8925-c5e7cc86cd02",
+      "userName": "Alister Lamprouge",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUj3Rh2aagDO0rL2Yo0vsFjTeOcTTNWZmT-UC5epyERfPf5ik3f",
+      "content": "da best when paired with shizuku it's faster",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-17T12:18:37",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
+    {
       "reviewId": "b3848af6-192f-4366-b6a0-fc5d28a25d73",
       "userName": "Leejae Garpesa",
       "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVEs6zOTon6ntMehd0SxLdIKocQhSFjRARqEda1VgRdutv7I_4",
@@ -48,33 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "f37d5310-4a25-4a3d-91b4-164573fcf221",
-      "userName": "A Pu",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJrRmBu0zfY5bAPWVayO6Y4cCP9XpzrDR579v1tslWnzUptgg=mo",
-      "content": "ok",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.1.1-fix1",
-      "at": "2025-12-15T05:01:40",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "0a437260-dab2-4154-ba50-1e4097209d9f",
-      "userName": "Adikk adikku",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIWSGy_5WFZ62oTWwTlrdjkIjhBelAI5LUQQHALnykY3difyQ=mo",
-      "content": "best apps",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.0.2",
-      "at": "2025-12-14T19:48:01",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.0.2"
     }
   ],
-  "generated_at": "2025-12-18T00:54:19.354558"
+  "generated_at": "2025-12-19T00:57:30.388819"
 }
