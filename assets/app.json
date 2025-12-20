@@ -11,6 +11,32 @@
   },
   "reviews": [
     {
+      "reviewId": "81eaa745-11bd-4222-96f4-3b1988888ca4",
+      "userName": "chenafi Riad",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLJJG-u4KSPsNImJr4HOgUT1ZWvImexapU0O2ks65OpAAotng=mo",
+      "content": "Pls give us more alice skins to upgrade like special or star light or epic to lucky box",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-18T15:49:07",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
+    {
+      "reviewId": "2bc53c44-ae28-43dd-85c4-efc99048690c",
+      "userName": "unknown user",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL7q21bNkNTXHcnHP5dggF8Kqp1xWavCu_rIaxNKQlWd1zhrg=mo",
+      "content": "i like this app. hoping that benedetta's covenant be replaceable too",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2025-12-18T13:28:28",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
       "reviewId": "fabb70a2-f250-42ae-99cb-3b1823cd20dc",
       "userName": "Carlo Pajaron",
       "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVdUI6x1-Sx4VZLg8vPm28JFYIFR57HBG9zUdFrPcqRrGx27wVD",
@@ -48,33 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "5160c0d1-f87c-4ac3-8acc-9dc249bbe2a5",
-      "userName": "Leonard Lastimoso",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL-N-ABfbim2yCh4eqjsGZ3RlAuuvaP65Vbt1IxFESUzaaL_g=mo",
-      "content": "is the best injector ever",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2025-12-16T15:50:29",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "fae95688-9e14-4c29-aeb1-c1f9c07284e9",
-      "userName": "Nhitz Bonifacio",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKDldpSWNE-NXxz4hGP9gWc9LlRh1quRIxPyy3gWvBiHajY-g=mo",
-      "content": "i will give us a one star my skins are not downloading in the game",
-      "score": 1,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.1.1-fix1",
-      "at": "2025-12-16T04:38:42",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.1.1-fix1"
     }
   ],
-  "generated_at": "2025-12-19T00:57:30.388819"
+  "generated_at": "2025-12-20T00:53:59.780851"
 }
