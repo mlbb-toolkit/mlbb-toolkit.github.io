@@ -30,6 +30,7 @@ jobs:
 
       - run: cp assets/config.json build/web/assets/config.json
       - run: cp assets/app.json build/web/assets/app.json
+      - run: cp assets/partnership.json build/web/assets/partnership.json
 
       - run: cp Ads.txt build/web/Ads.txt
       - run: cp app-ads.txt build/web/app-ads.txt
