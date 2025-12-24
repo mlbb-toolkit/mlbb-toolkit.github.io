@@ -99,7 +99,7 @@
             "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/45001.jpg",
             "name": "Dark Angel",
             "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/45001.zip",
-            "tag": null,
+            "tag": "",
             "source": "",
             "type": "script",
             "show": true
