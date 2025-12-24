@@ -86,7 +86,7 @@
         },
         {
             "hero_id": 7,
-            "thumbnail": "https://en.esportsku.com/wp-content/uploads/2021/01/Untitled-267.jpg",
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/_07001.jpg",
             "name": "Demon Hunter",
             "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/070.zip",
             "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
@@ -95,8 +95,28 @@
             "show": true
         },
         {
+            "hero_id": 45,
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/45001.jpg",
+            "name": "Dark Angel",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/45001.zip",
+            "tag": null,
+            "source": "",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 70,
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/70001.jpg",
+            "name": "Nature's Child",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/70001.zip",
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
+            "show": true
+        },
+        {
             "hero_id": 58,
-            "thumbnail": "https://cdn.oneesports.gg/cdn-data/2024/05/Anime_OnePiece_RoronoaZoro_Swords_Episode1104-1536x864.jpg",
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/581001.jpg",
             "name": "Roronoa Zoro",
             "script": "https://mlbb-toolkit.github.io/docs/script_unavailable",
             "tag": "",
