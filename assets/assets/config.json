@@ -45,6 +45,16 @@
     ],
     "ml_toolkit": [
         {
+            "hero_id": 58,
+            "thumbnail": "https://cdn.oneesports.gg/cdn-data/2024/05/Anime_OnePiece_RoronoaZoro_Swords_Episode1104-1536x864.jpg",
+            "name": "Roronoa Zoro",
+            "script": "https://mlbb-toolkit.github.io/docs/script_unavailable",
+            "tag": "",
+            "source": "https://youtube.com/@777daa",
+            "type": "",
+            "show": true
+        },
+        {
             "hero_id": 7,
             "thumbnail": "https://en.esportsku.com/wp-content/uploads/2021/01/Untitled-267.jpg",
             "name": "Demon Hunter(Dante) - Banezy Official",
