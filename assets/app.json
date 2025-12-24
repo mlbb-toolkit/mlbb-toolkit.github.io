@@ -4,12 +4,38 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "2.1.1-fix1",
     "score": 0,
-    "realInstalls": 70928,
+    "realInstalls": 72247,
     "installs": "50,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Dec 12, 2025"
   },
   "reviews": [
+    {
+      "reviewId": "44ddc0f3-280c-49d8-a356-2f1fa6c9fbd2",
+      "userName": "mark mendeja",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV63hFktvpb7cQn_smFOYeyJ2q8seCECoq1d2GXQclnd85ZyJE5",
+      "content": "nice",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2025-12-22T12:56:01",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "9aacbfb1-2f84-41ed-ab9f-e189d4776f6f",
+      "userName": "Kaung Myat",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX_XSkwuF1_QqzHGZHcc2bMN-WbPTHqaHSPJZSHwtN-peOGPJ0",
+      "content": "Very good Toolkit",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-22T11:06:13",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
     {
       "reviewId": "c739728f-ad46-425b-b563-8f9bd0f6f22b",
       "userName": "Rennelo James Apolinario",
@@ -48,33 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "2323cda2-2848-49f3-8964-12ca0f7aed3c",
-      "userName": "tricia mae Zamora",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJSp37KKbF9R6kjOH4K1XBREPpsXxJKicJhU_IMh8uPeBd0-w=mo",
-      "content": "goodss naman",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.1.1-fix1",
-      "at": "2025-12-21T05:48:11",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "82567817-87ad-4221-b4d0-47b89f9e63e3",
-      "userName": "Ngamgunsem Khongsai",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWVdCv_cGCKpcf9SgoNLKKKmhTE4SKKN3_CkI1adNrwCZmYoI4",
-      "content": "I really enjoy in th game after injecting it . cool app",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.1.1-fix1",
-      "at": "2025-12-21T05:07:28",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.1.1-fix1"
     }
   ],
-  "generated_at": "2025-12-23T00:57:22.581202"
+  "generated_at": "2025-12-24T00:56:56.359368"
 }
