@@ -45,6 +45,56 @@
     ],
     "ml_toolkit": [
         {
+            "hero_id": 1,
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/_01001.jpg",
+            "name": "Moonlight Archer",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/_01001.zip",
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 10,
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/10001.jpg",
+            "name": "Frozen Warrior",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/10001.zip",
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 16,
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/16001.jpg",
+            "name": "Yun Zhao",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/16001.zip",
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 18,
+            "thumbnail": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/18001.jpg",
+            "name": "Malefic Gunner",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/18001.zip",
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 7,
+            "thumbnail": "https://en.esportsku.com/wp-content/uploads/2021/01/Untitled-267.jpg",
+            "name": "Demon Hunter",
+            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/070.zip",
+            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
+            "source": "https://www.youtube.com/@banzyo-Jesda",
+            "type": "script",
+            "show": true
+        },
+        {
             "hero_id": 58,
             "thumbnail": "https://cdn.oneesports.gg/cdn-data/2024/05/Anime_OnePiece_RoronoaZoro_Swords_Episode1104-1536x864.jpg",
             "name": "Roronoa Zoro",
@@ -52,16 +102,6 @@
             "tag": "",
             "source": "https://youtube.com/@777daa",
             "type": "url",
-            "show": true
-        },
-        {
-            "hero_id": 7,
-            "thumbnail": "https://en.esportsku.com/wp-content/uploads/2021/01/Untitled-267.jpg",
-            "name": "Demon Hunter(Dante) - Banezy Official",
-            "script": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/scripts/070.zip",
-            "tag": "https://kbayfleegkajlqjjhoaa.supabase.co/storage/v1/object/public/img/skin_tag_banezy_official.webp",
-            "source": "https://www.youtube.com/@banzyo-Jesda",
-            "type": "script",
             "show": true
         }
     ],
