@@ -4,12 +4,51 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "2.1.1-fix1",
     "score": 0,
-    "realInstalls": 72247,
+    "realInstalls": 73797,
     "installs": "50,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Dec 12, 2025"
   },
   "reviews": [
+    {
+      "reviewId": "d964bf82-b3dc-408c-b4d3-93c104a01011",
+      "userName": "Bryan",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVB3vmc17zv0OvGH9ncPmh3MczDfAHVUvqhIR6vuZIb24n46as",
+      "content": "I don't trust it you might be banned u never know",
+      "score": 2,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2025-12-24T00:11:53",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "d09eb11c-9c49-4382-95b6-232470201e54",
+      "userName": "Yoyo Mutum",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLh3wBwTuYtUVlUlw8dY5Ae_ygxz3hn-jPzwRXuO5-NnEN6Aw=mo",
+      "content": "it's bad my ml lagging coz of this app all pick",
+      "score": 2,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-23T15:49:35",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
+    {
+      "reviewId": "21f4ea3a-c1ba-4402-b116-357fdc893877",
+      "userName": "Vince Andrei Abarquez",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWEkpYSypi0283wtUou5NPc5OCwVXV4bOViXA5_BCD-0uHsGAw",
+      "content": "My opinion? after this update and added the new Manual Inject is what I'm screaming at happily, I can finally transfer files of skin without any difficulty, this had been the best update yet, I recommend this app if you don't like bugs on the skin. Thank you!",
+      "score": 5,
+      "thumbsUpCount": 6,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2025-12-23T04:53:58",
+      "replyContent": "Thank you so much for the amazing feedback! \ud83d\ude4c\nWe\u2019re thrilled to hear that this update hit the mark for you. Your recommendation really means a lot to us!\nIf you have any ideas for new features, improvements, or anything you\u2019d like to see added next, we\u2019d love to hear them. Feel free to share your suggestions anytime. \ud83d\udca1",
+      "repliedAt": "2025-12-23T15:11:56",
+      "appVersion": "2.1.1-fix1"
+    },
     {
       "reviewId": "44ddc0f3-280c-49d8-a356-2f1fa6c9fbd2",
       "userName": "mark mendeja",
@@ -35,46 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "c739728f-ad46-425b-b563-8f9bd0f6f22b",
-      "userName": "Rennelo James Apolinario",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWxIirluuT0ofkMJPdbfGimJdfXtE21k-hZ9YJNU3mndYPzcpc",
-      "content": "okay",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2025-12-21T13:50:03",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "6d3143f1-0bcf-4c98-8986-514292466987",
-      "userName": "Ryuji Jheys",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIHn5X0_9jsZX6uwmCJEcOfw03vH4A1wKPWHQm7VOkZ6qBbxg=mo",
-      "content": "ok",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.1.1-fix1",
-      "at": "2025-12-21T09:40:59",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.1.1-fix1"
-    },
-    {
-      "reviewId": "1e7b8734-e4a8-4d83-afa1-7c5d183caaeb",
-      "userName": "Gusion Lian",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKe1XsFRYZEzs4qjUZZElfHE-IQEpnAY7VQEgNQfmM2CKAj6A=mo",
-      "content": "This Injector is Great and almost same by Origin Injector....Umm, This injector is better than Origin Injector or Other...Thank You",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "2.1.1-fix1",
-      "at": "2025-12-21T07:18:05",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "2.1.1-fix1"
     }
   ],
-  "generated_at": "2025-12-24T00:56:56.359368"
+  "generated_at": "2025-12-25T00:57:31.446642"
 }
