@@ -109,7 +109,7 @@
     },
     {
       "package": "com.xeno.gfx",
-      "enabled": true,
+      "enabled": false,
       "version": 1,
       "content": {
         "headline": "ML Toolkit",
