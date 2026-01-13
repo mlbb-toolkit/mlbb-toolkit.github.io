@@ -82,7 +82,7 @@
       }
     },
     {
-      "package": "com.nezhub.gfx",
+      "package": "com.nezhub.ph",
       "enabled": true,
       "version": 1,
       "content": {
