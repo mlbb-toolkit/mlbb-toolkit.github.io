@@ -83,7 +83,7 @@
     },
     {
       "package": "com.nezhub.ph",
-      "enabled": true,
+      "enabled": false,
       "version": 1,
       "content": {
         "headline": "ML Toolkit",
