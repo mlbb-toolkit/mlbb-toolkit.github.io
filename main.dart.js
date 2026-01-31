@@ -22100,7 +22100,7 @@ $iDp:1}
 A.ab4.prototype={
 $1(a){var s=A.ch().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/db373eb85a06eb3d706af362a45d42d0972f4b46/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/587c18f873b8ab57330422bce09047420d9c7f42/":s)+a},
 $S:99}
 A.DF.prototype={
 gt(a){var s=this.a
