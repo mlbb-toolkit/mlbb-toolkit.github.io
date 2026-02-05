@@ -48,6 +48,36 @@
     ],
     "ml_toolkit": [
         {
+            "hero_id": 113,
+            "thumbnail": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/assets/11300001.jpg",
+            "name": "Taro Sakamoto",
+            "script": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/113/11300001.zip",
+            "tag": "",
+            "source": "https://vt.tiktok.com/ZSa7maML6/",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 94,
+            "thumbnail": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/assets/9400001.jpg",
+            "name": "Steve and Dog",
+            "script": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/94/9400001.zip",
+            "tag": "",
+            "source": "https://vt.tiktok.com/ZSa7mkeot/",
+            "type": "script",
+            "show": true
+        },
+        {
+            "hero_id": 87,
+            "thumbnail": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/assets/8700001.jpg",
+            "name": "Sonic",
+            "script": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/87/8700001.zip",
+            "tag": "",
+            "source": "https://vt.tiktok.com/ZSa7asLJ3/",
+            "type": "script",
+            "show": true
+        },
+        {
             "hero_id": 37,
             "thumbnail": "https://github.com/mlbb-toolkit/tikloot-bblm/raw/main/assets/3700001.jpg",
             "name": "Aurora Gaming",
