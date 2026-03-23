@@ -2,6 +2,7 @@
     "app_code": 33,
     "article_enabled": false,
     "custom_enabled": false,
+    "custom_skin_enabled": true,
     "profile_view": true,
     "app_update": {
         "tag": "v1.0",
