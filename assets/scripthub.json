@@ -1,0 +1,41 @@
+{
+  "tag": "v1.0",
+  "version": 1,
+  "title": "Notice!",
+  "body": "Scripthub is currently unavailable for a while.",
+  "positive": {
+    "enabled": true,
+    "exit_after": false,
+    "exit_affinity": false,
+    "dismissable": true,
+    "openable": {
+      "enabled": false,
+      "url": "https://"
+    },
+    "text": "OK"
+  },
+  "negative": {
+    "enabled": false,
+    "exit_after": false,
+    "exit_affinity": false,
+    "dismissable": true,
+    "openable": {
+      "enabled": false,
+      "url": "https://"
+    },
+    "text": ""
+  },
+  "neutral": {
+    "enabled": false,
+    "exit_after": false,
+    "exit_affinity": false,
+    "dismissable": true,
+    "openable": {
+      "enabled": false,
+      "url": "https://"
+    },
+    "text": ""
+  },
+  "cancelable": false,
+  "enabled": false
+}
