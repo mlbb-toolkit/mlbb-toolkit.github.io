@@ -3,7 +3,7 @@
     "article_enabled": false,
     "custom_enabled": false,
     "custom_skin_enabled": true,
-    "scripthub": false,
+    "scripthub": true,
     "profile_view": true,
     "app_update": {
         "tag": "v1.0",
