@@ -7,10 +7,11 @@
     "profile_view": true,
     "app_update": {
         "tag": "v1.0",
-        "title": "",
-        "body": "",
-        "url": "https://",
-        "required": false,
+        "version": 50,
+        "title": "Update",
+        "body": "Your app is required to update to the latest version.",
+        "url": "https://play.google.com/store/apps/details?id=com.elfilibustero.toolkit",
+        "required": true,
         "enabled": false
     },
     "data_sources": "https://github.com/azizboy2007/zonghub-server/raw/main/data/",
