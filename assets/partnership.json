@@ -78,7 +78,7 @@
       },
       "sdk": {
         "min_sdk": 26,
-        "target_sdk": 33
+        "target_sdk": 36
       }
     },
     {
