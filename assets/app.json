@@ -4,12 +4,51 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "3.4.0",
     "score": 4.3333335,
-    "realInstalls": 1221455,
+    "realInstalls": 1226357,
     "installs": "1,000,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Apr 7, 2026"
   },
   "reviews": [
+    {
+      "reviewId": "f3d5c173-749c-462f-99e2-f57fdd89c692",
+      "userName": "yan myo",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKGbEQm3tiavof6muyAWDhUdT2VAF3Qs9Olb-hkTw2ZeVD2bQ=mo",
+      "content": "ok",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-21T00:12:51",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "83a55b85-4d60-41aa-bc3a-9a3d9089b62a",
+      "userName": "Shinna Rada",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKxev3TRIgGMLmd-2Rf0S9SlYkTHkPcLhgH_wARu6ms-j6w8w=mo",
+      "content": "good",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-20T19:52:19",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "11cf109a-a08c-4ad4-a9b7-7ee42b01cfd3",
+      "userName": "Leonora Canete",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWa8IFtgv8UhJMYmBCW8lCEwEoEnIMeJrRpWR3_7gQRf0zSYqkg",
+      "content": "I can use it\ud83d\ude22",
+      "score": 2,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-04-20T12:58:58",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
     {
       "reviewId": "05cf0989-ed11-462d-8e54-fd3d07b6166c",
       "userName": "Secon Second",
@@ -35,46 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "08a42d02-e5eb-4c79-a596-36ca547d10a9",
-      "userName": "Hakim Sumagayan",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJG4qN6d2qLFDufysnm3A3VnGqJ-lMsTreHfqXraUXC3AZ3LA=mo",
-      "content": "best injector",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-19T17:44:54",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "3285a493-c9cf-46c9-8887-c197b0e24354",
-      "userName": "YHA KYW",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJljLTzBgOMrQqGQlLJtrrxDaFqswampbo9ZWAa3jfh9vewyA=mo",
-      "content": "so i like good app",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-19T12:55:54",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "3c82856f-e1a7-4852-87c1-2073b2ccc66c",
-      "userName": "Khambongsha Limbu",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK0n77KX4h8iwhhSufHQfmSWxzphW3D29teRdlw9EmirytYLA=mo",
-      "content": "it's really Good and Works Very well But please add The new version of kagura luckybox skin (Soryu maiden) I want it so much",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-19T12:48:48",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
     }
   ],
-  "generated_at": "2026-04-21T01:27:16.994221"
+  "generated_at": "2026-04-22T01:25:57.531003"
 }
