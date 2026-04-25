@@ -4,24 +4,24 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "3.4.0",
     "score": 4.3333335,
-    "realInstalls": 1232910,
+    "realInstalls": 1237179,
     "installs": "1,000,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Apr 7, 2026"
   },
   "reviews": [
     {
-      "reviewId": "05ca07bc-7f26-42f6-936f-3c2a1d49bac6",
-      "userName": "Maxie Avila",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ8Zy2ZOrZhfzwHAMxHey9XjH2c-Zb1sgpN1jecTUQU8IVw=mo",
-      "content": "\u256d\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 \u25b6\ufe0e\u2022||\u0964||\u0964\u0964||\u0964||\u0964\u0964|||\u0964||\u0964\u0964 6.67 \u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u256fWAG MO PUPUTOK SA LOOB HA!!! TAS MAG--INGAT KAYO SA TULO HA!!!",
+      "reviewId": "4bf8ace0-f208-4152-8f92-0b6d3b2883cc",
+      "userName": "Edrhian Limcumpao",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXoS50d-5yC-Xl21XMIa3zJuUSu0c7R68SOyHo2fCAnIIx9n4rU",
+      "content": "it's good but kagura revamp lucky box and lunox is not updated can you fix it pls",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-23T00:46:46",
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-23T14:20:45",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": null
+      "appVersion": "3.4.0"
     },
     {
       "reviewId": "6e3a1c8f-26d8-4a45-a0ad-3164a57ebf28",
@@ -76,5 +76,5 @@
       "appVersion": "3.4.0"
     }
   ],
-  "generated_at": "2026-04-24T01:30:06.079371"
+  "generated_at": "2026-04-25T01:23:39.654194"
 }
