@@ -4,12 +4,51 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "3.4.0",
     "score": 4.3333335,
-    "realInstalls": 1237179,
+    "realInstalls": 1238050,
     "installs": "1,000,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Apr 7, 2026"
   },
   "reviews": [
+    {
+      "reviewId": "c78047bb-4cb0-45bc-88da-033b70ff84bb",
+      "userName": "Sugarswan Timekeeper",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ3XKRExHS6wbhNLjrCTFBK2y4W1uyygoi2dpApnJRP6cwiMg=mo",
+      "content": "i hope the people who created this see this it is a great injector sure even one of the best ,but can you add the 2nd forms of all the legend skins like a seperate skin? Because i really want to try lesley's second form in her legend skin so i hope you add this feature along with the other legend skins that have second forms.",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-04-24T08:40:58",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "ae98db47-5e50-49b5-aa7f-7230be2a772f",
+      "userName": "Jason Resuello",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKUEtM0BcXdLXXdaicY8-5zIS0wMHAsbsFBMyZ6dExlozYUQw=mo",
+      "content": "bruh if the enemy see it thay bully me",
+      "score": 1,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-24T07:37:44",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "5bcdea4e-18a8-40d6-b569-65e45c06c239",
+      "userName": "Keith Cedrick Jardin Arellano",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJd3r-LVlPLbzjgkyniRT8uo2Z18nohcKsxp7hj_fYPa7zoWw=mo",
+      "content": "wow, though there's no recall changer.. but it's good.",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-24T07:10:58",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
     {
       "reviewId": "4bf8ace0-f208-4152-8f92-0b6d3b2883cc",
       "userName": "Edrhian Limcumpao",
@@ -35,46 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "f3556b8c-36dc-4b3e-8954-3396a28781eb",
-      "userName": "Jay Deguzman",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLAZ5xDjQm4HziTKKll36oqNck1OemzYt3NzSnQDNiQ3iL1vA=mo",
-      "content": "It's a great app, but my only problem is when I try to upgrade lunox's skin to another skin of her, it just wouldn't show up. Hopefully, this can get fixed ASAP.",
-      "score": 5,
-      "thumbsUpCount": 4,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-22T09:16:18",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "0be312ce-6420-4226-867a-0b0c4274211d",
-      "userName": "Lin Latt Hein",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIC_wBPUaHB0eU2CxqD3sFNS_S7ghWt2UxG12RQwCaeufRJWw=mo",
-      "content": "Good \ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d\ud83d\udc4d",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-22T08:14:54",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "10446774-c7eb-44a3-ba02-77939c3ccb86",
-      "userName": "Zin Ko Ko Win",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIRAitpz4-CNR3cq7d7OLq8meFZt2oko8sKi2cLpg819u1z5A=mo",
-      "content": "\ud83d\udc4d good",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-22T05:51:47",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
     }
   ],
-  "generated_at": "2026-04-25T01:23:39.654194"
+  "generated_at": "2026-04-26T01:45:10.145259"
 }
