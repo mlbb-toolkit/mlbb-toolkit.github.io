@@ -11,6 +11,45 @@
   },
   "reviews": [
     {
+      "reviewId": "80814638-9c2e-43e0-a884-13dd02ff9d1a",
+      "userName": "Sykov Zlg",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLbo3Mp74aGhpPYCyGiM9bn-kwpy7-0hl5m5HzBgXiF_LWRoQ=mo",
+      "content": "this injector work perfectly in skins but after played 5,6 matches after injecting skins.My account got banned for 24hours.",
+      "score": 2,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-26T22:24:10",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "abb75552-e5f3-4c92-be1e-ce4d323ac3b4",
+      "userName": "Jumari Balbin",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKO3mWRXG19ioNhg_q2M5kBqxHTx3FPNnFJ8MA-gvdNUQvH8w=mo",
+      "content": "it's very good but there is 1 thing I always hate, I can't injectbmy soul revelation into cosmic gleam of gusion I've tried countless times but mine doesn't work,but it's still pretty good",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-26T13:44:26",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "064642cc-70a4-4ea7-ad27-c8a341642542",
+      "userName": "tzu yeon",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIZN1RV726nvhEWSMxpjyuGQ7Rqqxx9t2i3iAZmwz5tev3z2A=mo",
+      "content": "goods naman sya",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-04-26T02:09:57",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
       "reviewId": "f124c93e-587b-4efa-9f70-4c70e394d8e3",
       "userName": "Emmanuel De Guzman",
       "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLry5jtVhJroc4v8iCLmJpL8r8vkCBmosEAHgx9L4pklVfQFA=mo",
@@ -35,46 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": null
-    },
-    {
-      "reviewId": "ef689067-f454-45ec-b3e5-4edfbcf133fd",
-      "userName": "Mary joy Garcia",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJwC3lJ4P2htR9jwugMNagqzqUZykl4e68AB-WdG-HH63PmRA=mo",
-      "content": "I think Mine Glitch? Voice Lines And Skill sound effects Did not change at all? Still Gonna Give this A 3/5",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-25T13:57:03",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "7be93e66-3d6f-479c-acb1-497e67ca316b",
-      "userName": "Khukhtumur Amaraa",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL9fVHEeAxopylq5G5C6HH5101HZJWtzifJVFoHCsEZYxvBhg=mo",
-      "content": "good at injecting but there is few bugs that makes the game all of pink",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-25T07:44:02",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "c78047bb-4cb0-45bc-88da-033b70ff84bb",
-      "userName": "Sugarswan Timekeeper",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ3XKRExHS6wbhNLjrCTFBK2y4W1uyygoi2dpApnJRP6cwiMg=mo",
-      "content": "i hope the people who created this see this it is a great injector sure even one of the best ,but can you add the 2nd forms of all the legend skins like a seperate skin? Because i really want to try lesley's second form in her legend skin so i hope you add this feature along with the other legend skins that have second forms.",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-24T08:40:58",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
     }
   ],
-  "generated_at": "2026-04-27T01:48:43.122349"
+  "generated_at": "2026-04-28T01:56:23.749520"
 }
