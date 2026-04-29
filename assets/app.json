@@ -4,12 +4,38 @@
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "3.4.0",
     "score": 4.3333335,
-    "realInstalls": 1248499,
+    "realInstalls": 1248527,
     "installs": "1,000,000+",
     "released": "Oct 2, 2025",
-    "lastUpdatedOn": "Apr 8, 2026"
+    "lastUpdatedOn": "Apr 7, 2026"
   },
   "reviews": [
+    {
+      "reviewId": "397fa8ac-3dc5-407a-aab8-d2412ff4f99f",
+      "userName": "Julita Buna",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJY0OuZcRY0sxel-9e-yQwlMBMXpEm1AK6O3-IA-SXEl_iZPg=mo",
+      "content": "It's very good my only problem is kagura's luckybox skin has been revamped but when I tried to inject it the old version was the one that showed plus the effect are so bad.Hope it can be fixed.",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-27T23:42:28",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "7e2f589d-2117-42c6-8ac4-fcc161e958c4",
+      "userName": "min min",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXags04j4KEPxMBseemyDGyeTQ9agHMVqwTV6YGzYFhFZv_zvYQ",
+      "content": "very good",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-27T14:02:17",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
     {
       "reviewId": "80814638-9c2e-43e0-a884-13dd02ff9d1a",
       "userName": "Sykov Zlg",
@@ -48,33 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": null
-    },
-    {
-      "reviewId": "f124c93e-587b-4efa-9f70-4c70e394d8e3",
-      "userName": "Emmanuel De Guzman",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLry5jtVhJroc4v8iCLmJpL8r8vkCBmosEAHgx9L4pklVfQFA=mo",
-      "content": "The update is always late and sometimes even though it says \"injecting complete\" when I play in game the skin doesn't appear only the effects(im bad at english just correct me if im wrong)",
-      "score": 2,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-25T16:20:13",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "5ef33abd-f7ae-4d54-a0bf-d8d9e52b2dee",
-      "userName": "Kenneth Mendoza",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVyfG1p0o3JAxwIrRUJV9HnrQJFly9eRfLhu7PwcWn_YZm0Hj3R",
-      "content": "ganda 1 year ko na ginagamit",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-25T15:19:25",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
     }
   ],
-  "generated_at": "2026-04-28T01:56:23.749520"
+  "generated_at": "2026-04-29T01:59:05.692766"
 }
