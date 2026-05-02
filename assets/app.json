@@ -3,13 +3,52 @@
     "title": "ML Toolkit",
     "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
     "version": "3.4.0",
-    "score": 4.3333335,
-    "realInstalls": 1259527,
+    "score": 4.3584905,
+    "realInstalls": 1261054,
     "installs": "1,000,000+",
     "released": "Oct 2, 2025",
     "lastUpdatedOn": "Apr 8, 2026"
   },
   "reviews": [
+    {
+      "reviewId": "1e70e795-5f8d-47ed-8eea-97e6ff19267e",
+      "userName": "Hla ThyzarHtay",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU3a9J8ltt6G-gGY0apKL1FpoVw6c4C_33QM1D-uYugfJ5uQ1o",
+      "content": "apk mya keren",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-04-30T21:28:19",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "2ec324bb-099b-497f-bd57-e4341a10b3bd",
+      "userName": "Marc Andrey Lade\u00f1o",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWltGownk6XMTvxFZvmpyrnHR8t5OcS7KNpJ5tbtDw9ObXcZmM",
+      "content": "I always get an error.",
+      "score": 1,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-04-30T10:58:22",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
+      "reviewId": "79289ab2-5431-41ba-a765-495ae1da5bc8",
+      "userName": "Jhondyll Garcia",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLiUmEkQDUuWcrLLMkGZ65KrZJikC2OqDnDLMar2pGeBNDLHQ=mo",
+      "content": "it's good but you can get banned using this",
+      "score": 3,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-04-30T05:11:40",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
     {
       "reviewId": "cce7e1eb-1f25-4b6b-9e2c-8f5df8feaf0e",
       "userName": "Genesis Bontilao",
@@ -35,46 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": null
-    },
-    {
-      "reviewId": "9d010591-57e5-46e8-ae4d-a2b1d417b3a0",
-      "userName": "Mechell Manangat",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL0GR_iB1TfVoVkeQifo9p4Ym4uS9ylbKT0l4stJWnXujfUvw=mo",
-      "content": "Wow its work thanks",
-      "score": 5,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-29T13:50:09",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "44a8491a-af5f-4827-b3ab-3ee2b3f7a8e0",
-      "userName": "Chrstianbrian delacruz",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW4iZshRLXkLINUY0YeWUHtD0r3B5CE0qGN4hpzc_ITfFoAY-Ya",
-      "content": "is this not verified by moonton? because I've been ban for so many times like what?? but it's good I hope you get permission from moonton because not everyone can afford",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-29T13:25:06",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "c1619707-cf0b-4e18-a9f9-9502ed840d20",
-      "userName": "Ephraim Lagusay",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWE21eAoHz59XSza-XcCLeKK0pYkWWfIrSD_wbhe12Y0OVl0OY",
-      "content": "this is app is literally good but suddenly it changes when I inject a Julian skin cuz I have none it won't show but the skill only work",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-29T11:12:17",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
     }
   ],
-  "generated_at": "2026-05-01T02:00:24.043330"
+  "generated_at": "2026-05-02T01:48:57.929754"
 }
