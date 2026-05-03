@@ -11,6 +11,58 @@
   },
   "reviews": [
     {
+      "reviewId": "115cdcdf-b55f-4e8c-bdbe-7ca5f4169152",
+      "userName": "Chrissania Portis Cahilo",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK2YTsUkdLmfPmfH24469ajJvG-2F53bS1SevABG57K9sxQeg=mo",
+      "content": "its legit",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-05-01T23:44:31",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "717b99ec-9453-4094-9acb-7a4ff1127c1a",
+      "userName": "Yeshey Pelden",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIQEl4WID_gstQNtKZfCLZ0hZjcGdualqrfnMbINC0t0Q6G9w=mo",
+      "content": "Best app!",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": null,
+      "at": "2026-05-01T14:47:16",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": null
+    },
+    {
+      "reviewId": "5790152a-abf6-4415-adf8-1bb5ee46ebac",
+      "userName": "Ace Dicot",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXJiPIIKuyfzIGEiQnonXjgjSPiioobKKy_TBDC1AObq-woZ9o",
+      "content": "good injector, no bug or whatsoever",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "2.1.1-fix1",
+      "at": "2026-05-01T06:54:26",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "2.1.1-fix1"
+    },
+    {
+      "reviewId": "4e2ea7c5-d2b2-4960-b17b-4e828086eea3",
+      "userName": "Sha sha Sha",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL6HBrjErpLSvekMlu8qVklma2_2GqKkgHAaUzYwNwPKEUePA=mo",
+      "content": "Great",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "3.4.0",
+      "at": "2026-05-01T06:30:46",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "3.4.0"
+    },
+    {
       "reviewId": "1e70e795-5f8d-47ed-8eea-97e6ff19267e",
       "userName": "Hla ThyzarHtay",
       "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU3a9J8ltt6G-gGY0apKL1FpoVw6c4C_33QM1D-uYugfJ5uQ1o",
@@ -22,59 +74,7 @@
       "replyContent": null,
       "repliedAt": null,
       "appVersion": null
-    },
-    {
-      "reviewId": "2ec324bb-099b-497f-bd57-e4341a10b3bd",
-      "userName": "Marc Andrey Lade\u00f1o",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWltGownk6XMTvxFZvmpyrnHR8t5OcS7KNpJ5tbtDw9ObXcZmM",
-      "content": "I always get an error.",
-      "score": 1,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-04-30T10:58:22",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "79289ab2-5431-41ba-a765-495ae1da5bc8",
-      "userName": "Jhondyll Garcia",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLiUmEkQDUuWcrLLMkGZ65KrZJikC2OqDnDLMar2pGeBNDLHQ=mo",
-      "content": "it's good but you can get banned using this",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-30T05:11:40",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "cce7e1eb-1f25-4b6b-9e2c-8f5df8feaf0e",
-      "userName": "Genesis Bontilao",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJae98eqeA_XtZ38GVGNhOeb2Gw5oLE3-ikPwfvNly7l1l9eg=mo",
-      "content": "When I inject Lapu lapu skin adlaws chosen the effects is old not new then somethings locking of the effects",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-29T23:32:25",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
-    },
-    {
-      "reviewId": "4f58e84b-f17c-42a6-be13-6f8e9a0ea87e",
-      "userName": "Jared paul Losorata",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJt_ulPfpL2Q0FRu98zy3q-sVjLiERqm3S0C02rh4TkcTThfA=mo",
-      "content": "Ganda Kaso na ban nako pero umulit parin ako",
-      "score": 4,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": null,
-      "at": "2026-04-29T14:39:30",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": null
     }
   ],
-  "generated_at": "2026-05-02T01:48:57.929754"
+  "generated_at": "2026-05-03T01:51:50.507470"
 }
