@@ -31,15 +31,15 @@
   "packages": [
     {
       "package": "com.jc.prime.tools",
-      "enabled": false,
-      "version": 1,
+      "enabled": true,
+      "version": 5,
       "content": {
-        "headline": "ML Toolkit",
-        "body": "Discover how this injector lets you earn diamonds through fun mini games while enhancing your gameplay with powerful features and a smooth, user-friendly experience.",
-        "tagline": "Play Mini Games. Get Diamonds",
-        "footer": "Play • Win • Earn Diamonds",
-        "media": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
-        "icon": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
+        "headline": "Kaizerus GFX",
+        "body": "New Kaizerus GFX Download Now!",
+        "tagline": "",
+        "footer": "Greatest injector of all time",
+        "media": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
+        "icon": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
         "dialog": {
           "enabled": false,
           "cancelable": true,
@@ -47,7 +47,7 @@
           "cancel_action": "Close"
         },
         "enabled": true,
-        "link": "https://mlbb-toolkit.github.io/",
+        "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "action": "Install"
       },
       "sdk": {
@@ -83,15 +83,15 @@
     },
     {
       "package": "com.nezhub.ph",
-      "enabled": false,
-      "version": 1,
+      "enabled": true,
+      "version": 5,
       "content": {
-        "headline": "ML Toolkit",
-        "body": "Discover how this injector lets you earn diamonds through fun mini games while enhancing your gameplay with powerful features and a smooth, user-friendly experience.",
-        "tagline": "Play Mini Games. Get Diamonds",
-        "footer": "Play • Win • Earn Diamonds",
-        "media": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
-        "icon": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
+        "headline": "Kaizerus GFX",
+        "body": "New Kaizerus GFX Download Now!",
+        "tagline": "",
+        "footer": "Greatest injector of all time",
+        "media": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
+        "icon": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
         "dialog": {
           "enabled": false,
           "cancelable": true,
@@ -99,7 +99,7 @@
           "cancel_action": "Close"
         },
         "enabled": true,
-        "link": "https://mlbb-toolkit.github.io/",
+        "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "action": "Install"
       },
       "sdk": {
@@ -135,15 +135,15 @@
     },
     {
       "package": "com.escanor.tools",
-      "enabled": false,
-      "version": 3,
+      "enabled": true,
+      "version": 5,
       "content": {
-        "headline": "ML Toolkit",
-        "body": "Discover how this injector lets you earn diamonds through fun mini games while enhancing your gameplay with powerful features and a smooth, user-friendly experience.",
-        "tagline": "Play Mini Games. Get Diamonds",
-        "footer": "Play • Win • Earn Diamonds",
-        "media": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
-        "icon": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
+        "headline": "Kaizerus GFX",
+        "body": "New Kaizerus GFX Download Now!",
+        "tagline": "",
+        "footer": "Greatest injector of all time",
+        "media": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
+        "icon": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
         "dialog": {
           "enabled": false,
           "cancelable": true,
@@ -151,7 +151,7 @@
           "cancel_action": "Close"
         },
         "enabled": true,
-        "link": "https://mlbb-toolkit.github.io/",
+        "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "action": "Install"
       },
       "sdk": {
