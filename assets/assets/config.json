@@ -9,7 +9,7 @@
         "tag": "v1.0",
         "version": 54,
         "title": "Update Required",
-        "body": "Your app is required to update to the latest version.",
+        "body": "ML Toolkit is now officially shutdown. Please download the new ML Toolkit(Kaizoku-ō GFX) app from Google Play Store.",
         "url": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "required": true,
         "enabled": true
