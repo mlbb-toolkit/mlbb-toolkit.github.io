@@ -5,7 +5,7 @@ class DownloadPage extends StatelessWidget {
   const DownloadPage({super.key});
 
   static const String downloadUrl =
-      "https://play.google.com/store/apps/details?id=com.elfilibustero.toolkit";
+      "https://play.google.com/store/apps/details?id=com.com.kaizokuo.gfx";
 
   @override
   Widget build(BuildContext context) {
@@ -119,7 +119,7 @@ class DownloadPage extends StatelessWidget {
                       child: Column(
                         children: [
                           Text(
-                            "Latest Version: v2.0.0-fix1",
+                            "Latest Version",
                             style: theme.textTheme.titleLarge,
                           ),
                           const SizedBox(height: 10),
