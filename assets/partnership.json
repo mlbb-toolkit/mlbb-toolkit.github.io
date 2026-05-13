@@ -46,7 +46,7 @@
           "required": true,
           "cancel_action": "Close"
         },
-        "enabled": true,
+        "enabled": false,
         "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "action": "Install"
       },
@@ -138,7 +138,7 @@
       "enabled": true,
       "version": 5,
       "content": {
-        "headline": "Kaizoku-ō GFX",
+        "headline": "Kaizerus GFX",
         "body": "New Escanor Tools Download Now",
         "tagline": "",
         "footer": "Greatest injector of all time",
@@ -150,7 +150,7 @@
           "required": false,
           "cancel_action": "Close"
         },
-        "enabled": true,
+        "enabled": false,
         "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "action": "Install"
       },
