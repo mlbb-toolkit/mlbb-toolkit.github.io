@@ -135,7 +135,7 @@
     },
     {
       "package": "com.escanor.tools",
-      "enabled": false,
+      "enabled": true,
       "version": 5,
       "content": {
         "headline": "Kaizoku-ō GFX",
