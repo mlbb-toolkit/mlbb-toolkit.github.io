@@ -31,7 +31,7 @@
   "packages": [
     {
       "package": "com.jc.prime.tools",
-      "enabled": true,
+      "enabled": false,
       "version": 5,
       "content": {
         "headline": "Kaizerus GFX",
@@ -46,7 +46,7 @@
           "required": true,
           "cancel_action": "Close"
         },
-        "enabled": false,
+        "enabled": true,
         "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
         "action": "Install"
       },
@@ -135,7 +135,7 @@
     },
     {
       "package": "com.escanor.tools",
-      "enabled": true,
+      "enabled": false,
       "version": 5,
       "content": {
         "headline": "Kaizoku-ō GFX",
