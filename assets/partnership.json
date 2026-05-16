@@ -145,9 +145,9 @@
         "media": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
         "icon": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
         "dialog": {
-          "enabled": false,
-          "cancelable": true,
-          "required": false,
+          "enabled": true,
+          "cancelable": false,
+          "required": true,
           "cancel_action": "Close"
         },
         "enabled": true,
@@ -156,7 +156,7 @@
       },
       "sdk": {
         "min_sdk": 26,
-        "target_sdk": 36
+        "target_sdk": 34
       }
     }
   ]
