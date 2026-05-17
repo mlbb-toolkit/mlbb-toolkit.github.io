@@ -2,7 +2,7 @@
   "version": 1,
   "load": {
     "partnership": true,
-    "country_check": false
+    "country_check": true
   },
   "content": {
     "headline": "ML Toolkit",
