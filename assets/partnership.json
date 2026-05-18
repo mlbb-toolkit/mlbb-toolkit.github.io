@@ -156,7 +156,7 @@
       },
       "sdk": {
         "min_sdk": 26,
-        "target_sdk": 34
+        "target_sdk": 36
       }
     }
   ]
