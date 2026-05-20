@@ -26,8 +26,7 @@
     "target_sdk": 36
   },
   "excluded_countries": [
-    "PH",
-    "CH"
+    "PH"
   ],
   "packages": [
     {
