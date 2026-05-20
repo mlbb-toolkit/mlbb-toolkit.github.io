@@ -9,7 +9,7 @@ def convert_datetime(obj):
     raise TypeError(f'Type {type(obj)} not serializable')
 
 app_data = app(
-    'com.mobalauncher.io',
+    'com.kaizokuo.gfx',
     lang='en',
     country='us')
 
@@ -25,7 +25,7 @@ app_details = {
 }
 
 reviews_data, _ = reviews(
-    'com.mobalauncher.io',
+    'com.kaizokuo.gfx',
     lang='en',
     country='us',
     sort=Sort.NEWEST,
