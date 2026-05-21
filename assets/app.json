@@ -1,80 +1,80 @@
 {
   "app_details": {
-    "title": "ML Toolkit",
-    "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
-    "version": "3.4.0",
-    "score": 4.3703704,
-    "realInstalls": 1292940,
-    "installs": "1,000,000+",
-    "released": "Oct 2, 2025",
-    "lastUpdatedOn": "Apr 7, 2026"
+    "title": "Kaizoku-\u014d GFX",
+    "description": "Kaizoku-\u014d GFX is a MOBA utility application that provides organized tools and interactive mini-game features designed for a smooth and easy user experience.\r\n\r\nThe app focuses on simplicity, clarity, and responsiveness, offering a companion-style interface where users can explore game-related utilities and features in an organized way.\r\n\r\n\ud83c\udfae Utility & Mini-Game Features\r\n\r\nOrganized utility features for MOBA players\r\n\r\nInteractive mini-game sections for casual use\r\n\r\nClean and intuitive navigation\r\n\r\nSmooth and responsive interactions\r\n\r\n\ud83e\udde0 Purpose & Usability\r\n\r\nKaizoku-\u014d GFX is designed as a standalone utility app that prioritizes usability and stability.\r\nIt is suitable for users who want a simple, well-structured app for MOBA-related utilities and interactive features.\r\n\r\n\ud83d\udd12 Privacy & Transparency\r\n\r\nUser privacy is respected.\r\nThe app only requests permissions when required for specific features.\r\nA clear Privacy Policy and Data Deletion Request page are available to ensure transparency and user control.\r\n\r\n\u2699\ufe0f Compatibility & Support\r\n\r\nCompatible with modern Android devices\r\n\r\nRegular updates focused on performance and usability improvements\r\n\r\nKaizoku-\u014d GFX is intended for users who want a clean and dependable MOBA utility experience.",
+    "version": "Varies with device",
+    "score": 4.5333333,
+    "realInstalls": 186142,
+    "installs": "100,000+",
+    "released": "Dec 17, 2025",
+    "lastUpdatedOn": null
   },
   "reviews": [
     {
-      "reviewId": "a53652ed-0733-4b69-9119-93eca4fc00a3",
-      "userName": "Wai Yan",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ6V5CVkbicx31Y0X5cWbogX971q0Z0NpVOX8290mPvTCsmJA=mo",
-      "content": "very good",
+      "reviewId": "1fdb6bd7-48c0-4f33-9ecc-54c0528a7226",
+      "userName": "Aaron Maglipon",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKV--uoDgfSgIUy9aDneegmJ8sEk5KWf-MmKxlpcBMKDXlz7A=mo",
+      "content": "one of the best injectors I've ever tried doesn't cause ping spikes or ban highly recommended",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-10T01:19:54",
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-20T01:46:05",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": "3.4.0"
+      "appVersion": "1.0.0"
     },
     {
-      "reviewId": "e5b7826c-5bc9-4473-937b-5aee9b9ebf33",
-      "userName": "Guillermo Pollarca",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ4x9yATIQ6TI13F5Hj1O8eTzJHl9zENnAvXu31wTPGp7BHzg=mo",
+      "reviewId": "75fbf934-38c8-442d-9063-c88f57b63b81",
+      "userName": "Thoon Tan Sin",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIHf-WDvHUlIxLmsRlKrYkyaexjc5FEe9iXTMIAcYNlcRtyHQ=mo",
+      "content": "good",
+      "score": 4,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-20T01:29:20",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.0.0"
+    },
+    {
+      "reviewId": "eb15f62b-1215-454d-990e-8c544546752a",
+      "userName": "Yi Yi Cho",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKsLhthQI6LC01PFFW5k7udG5rZKJ9JeR_CgA-17--qspKsEw=mo",
       "content": "good",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-10T00:48:35",
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-20T01:24:20",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": "3.4.0"
+      "appVersion": "1.0.0"
     },
     {
-      "reviewId": "4ac974b9-1673-4dfc-a263-0db7d79ff9ad",
-      "userName": "Rhendell Mar Celino",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVB2_U-C_xcKRH8Q5C-obW7WfP07PQtJ0eWgJNcL5qNcM_vIbQ",
-      "content": "I like but others skin don't success can u fix it?",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-10T00:24:28",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "ec411ee1-4a4a-414f-b995-ef937908f764",
-      "userName": "Zeus Tenorio",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI4csJfiy5LevKdrm2jn5Qm1sFJrYDRaCJgm4KMoP-vyQ8hbQ=mo",
-      "content": "it's a bit frustrating to see that you cannot use a optiosn on permission but sometimes even if it is good permission I don't work and sometimes good so it half for me that's all",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-09T22:35:51",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "ce75fb25-5821-4f65-a885-7a9344390925",
-      "userName": "Ko Yin",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKDrPdMRG1d2CDEtinCuxEYSR_jeLoDgfmnPdK1Ly8rNxTiFg=mo",
-      "content": "Ko Yinhhj",
+      "reviewId": "70d810da-c6d2-4865-9e90-4a0e27b01a8b",
+      "userName": "Teresita Redondo",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIHDRt3mI4HrcQv8z2Rxe7XTS0CDW7XbWwVcjcE12jgzh7AuQ=mo",
+      "content": "wow wow",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-09T20:59:24",
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-20T01:17:40",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": "3.4.0"
+      "appVersion": "1.0.0"
+    },
+    {
+      "reviewId": "ce8b990a-b4c9-4d0f-95e1-718cd3310729",
+      "userName": "kristine joy mendoza",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWIhBWe_pLX-ib-a994miFxiBzBqas6Uf70GtsUzwyWb8cqWOWx",
+      "content": "very nice",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-20T00:10:30",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.0.0"
     }
   ],
-  "generated_at": "2026-05-11T02:05:05.256781"
+  "generated_at": "2026-05-21T02:10:42.630026"
 }
