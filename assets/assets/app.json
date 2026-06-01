@@ -1,80 +1,80 @@
 {
   "app_details": {
-    "title": "ML Toolkit",
-    "description": "ML Toolkit is designed for MOBA enthusiasts who want to personalize and enhance their gameplay experience. Whether you\u2019re looking to explore hero builds, customize visuals, or optimize your strategy, ML Toolkit brings you a smooth, user-friendly toolset that elevates how you play and enjoy the game.",
-    "version": "3.4.0",
-    "score": 4.3703704,
-    "realInstalls": 1292940,
-    "installs": "1,000,000+",
-    "released": "Oct 2, 2025",
-    "lastUpdatedOn": "Apr 7, 2026"
+    "title": "Kaizoku-\u014d GFX",
+    "description": "Kaizoku-\u014d GFX is a MOBA utility application that provides organized tools and interactive mini-game features designed for a smooth and easy user experience.\r\n\r\nThe app focuses on simplicity, clarity, and responsiveness, offering a companion-style interface where users can explore game-related utilities and features in an organized way.\r\n\r\n\ud83c\udfae Utility & Mini-Game Features\r\n\r\nOrganized utility features for MOBA players\r\n\r\nInteractive mini-game sections for casual use\r\n\r\nClean and intuitive navigation\r\n\r\nSmooth and responsive interactions\r\n\r\n\ud83e\udde0 Purpose & Usability\r\n\r\nKaizoku-\u014d GFX is designed as a standalone utility app that prioritizes usability and stability.\r\nIt is suitable for users who want a simple, well-structured app for MOBA-related utilities and interactive features.\r\n\r\n\ud83d\udd12 Privacy & Transparency\r\n\r\nUser privacy is respected.\r\nThe app only requests permissions when required for specific features.\r\nA clear Privacy Policy and Data Deletion Request page are available to ensure transparency and user control.\r\n\r\n\u2699\ufe0f Compatibility & Support\r\n\r\nCompatible with modern Android devices\r\n\r\nRegular updates focused on performance and usability improvements\r\n\r\nKaizoku-\u014d GFX is intended for users who want a clean and dependable MOBA utility experience.",
+    "version": "Varies with device",
+    "score": 4.703704,
+    "realInstalls": 433515,
+    "installs": "100,000+",
+    "released": "Dec 17, 2025",
+    "lastUpdatedOn": null
   },
   "reviews": [
     {
-      "reviewId": "a53652ed-0733-4b69-9119-93eca4fc00a3",
-      "userName": "Wai Yan",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ6V5CVkbicx31Y0X5cWbogX971q0Z0NpVOX8290mPvTCsmJA=mo",
-      "content": "very good",
+      "reviewId": "376900ce-2317-493f-b275-3258d7534811",
+      "userName": "Melisa Kilat",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKYe8nPve5vcz4I-n0QoPtDZrP5MR7j9cmfd5LuEeQuNfq1ug=mo",
+      "content": "Soo good app",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-10T01:19:54",
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-31T01:28:50",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": "3.4.0"
+      "appVersion": "1.0.0"
     },
     {
-      "reviewId": "e5b7826c-5bc9-4473-937b-5aee9b9ebf33",
-      "userName": "Guillermo Pollarca",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ4x9yATIQ6TI13F5Hj1O8eTzJHl9zENnAvXu31wTPGp7BHzg=mo",
-      "content": "good",
+      "reviewId": "2e6e01fa-000a-488a-8ba8-0f27bfd53d23",
+      "userName": "Shan Mateo",
+      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX4TopYbAE9GfWcxNyt4lFPiVeLDkwAZLuSA8NN8rYKrNWEgn9t",
+      "content": "Wish you putting a exorcist and street fighter skins \ud83d\ude4f",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-10T00:48:35",
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-31T01:16:17",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": "3.4.0"
+      "appVersion": "1.0.0"
     },
     {
-      "reviewId": "4ac974b9-1673-4dfc-a263-0db7d79ff9ad",
-      "userName": "Rhendell Mar Celino",
-      "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVB2_U-C_xcKRH8Q5C-obW7WfP07PQtJ0eWgJNcL5qNcM_vIbQ",
-      "content": "I like but others skin don't success can u fix it?",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-10T00:24:28",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "ec411ee1-4a4a-414f-b995-ef937908f764",
-      "userName": "Zeus Tenorio",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI4csJfiy5LevKdrm2jn5Qm1sFJrYDRaCJgm4KMoP-vyQ8hbQ=mo",
-      "content": "it's a bit frustrating to see that you cannot use a optiosn on permission but sometimes even if it is good permission I don't work and sometimes good so it half for me that's all",
-      "score": 3,
-      "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-09T22:35:51",
-      "replyContent": null,
-      "repliedAt": null,
-      "appVersion": "3.4.0"
-    },
-    {
-      "reviewId": "ce75fb25-5821-4f65-a885-7a9344390925",
-      "userName": "Ko Yin",
-      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKDrPdMRG1d2CDEtinCuxEYSR_jeLoDgfmnPdK1Ly8rNxTiFg=mo",
-      "content": "Ko Yinhhj",
+      "reviewId": "a332e440-8746-4e3c-95b5-f3d155f02913",
+      "userName": "Hnin Lae",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLVemAyLLbzcL6_eLndPwcA8u1CLnN2RPPk_lModztftcwQRg=mo",
+      "content": "thunk yoyu",
       "score": 5,
       "thumbsUpCount": 0,
-      "reviewCreatedVersion": "3.4.0",
-      "at": "2026-05-09T20:59:24",
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-31T00:17:46",
       "replyContent": null,
       "repliedAt": null,
-      "appVersion": "3.4.0"
+      "appVersion": "1.0.0"
+    },
+    {
+      "reviewId": "492ad36b-b9f9-4508-b2d3-c883129ecbd5",
+      "userName": "Ricardo Bigbig",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI3qi8C6mY0MYvbCOefz4bVLSGh2-6h-etcuW1NFOJt-RWlFQ=mo",
+      "content": "great",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-31T00:05:48",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.0.0"
+    },
+    {
+      "reviewId": "276fd1c4-9a9b-4b8f-b7e4-a0cb65aa2938",
+      "userName": "Ruby Dayatao",
+      "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKNfj36Tqb6Posvg40brOEcPZ4kmY6AvoBsjgSSW_Xfbn79Eg=mo",
+      "content": "good morning",
+      "score": 5,
+      "thumbsUpCount": 0,
+      "reviewCreatedVersion": "1.0.0",
+      "at": "2026-05-30T23:47:28",
+      "replyContent": null,
+      "repliedAt": null,
+      "appVersion": "1.0.0"
     }
   ],
-  "generated_at": "2026-05-11T02:05:05.256781"
+  "generated_at": "2026-06-01T02:39:18.674062"
 }
