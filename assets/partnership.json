@@ -2,7 +2,7 @@
   "version": 1,
   "load": {
     "partnership": true,
-    "country_check": false
+    "country_check": true
   },
   "content": {
     "headline": "ML Toolkit",
@@ -109,23 +109,23 @@
     },
     {
       "package": "com.xeno.gfx",
-      "enabled": false,
-      "version": 1,
+      "enabled": true,
+      "version": 5,
       "content": {
-        "headline": "ML Toolkit",
-        "body": "Discover how this injector lets you earn diamonds through fun mini games while enhancing your gameplay with powerful features and a smooth, user-friendly experience.",
-        "tagline": "Play Mini Games. Get Diamonds",
-        "footer": "Play • Win • Earn Diamonds",
-        "media": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
-        "icon": "https://mlbb-toolkit.github.io/assets/assets/icon/icon.png",
+        "headline": "Xeno GFX",
+        "body": "Discover how this new injector lets you protected from getting banned. Inject your favorite skins safely",
+        "tagline": "Inject your favorite skins safely",
+        "footer": "Safest Injector 2026",
+        "media": "https://play-lh.googleusercontent.com/UorsQaAbE_65XJKkAY-QPH-OarJ3d_hZ5HhI3Ovu7Dj06MFcllmZnCuGD2Gx8-wKQbhhfTX5R-P3jWntomln=w480-h960-rw",
+        "icon": "https://play-lh.googleusercontent.com/UorsQaAbE_65XJKkAY-QPH-OarJ3d_hZ5HhI3Ovu7Dj06MFcllmZnCuGD2Gx8-wKQbhhfTX5R-P3jWntomln=w480-h960-rw",
         "dialog": {
-          "enabled": false,
-          "cancelable": true,
-          "required": false,
+          "enabled": true,
+          "cancelable": false,
+          "required": true,
           "cancel_action": "Close"
         },
-        "enabled": false,
-        "link": "https://mlbb-toolkit.github.io/",
+        "enabled": true,
+        "link": "https://play.google.com/store/apps/details?id=com.mobalauncher.io",
         "action": "Install"
       },
       "sdk": {
