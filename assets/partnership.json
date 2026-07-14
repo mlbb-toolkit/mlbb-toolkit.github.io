@@ -138,12 +138,12 @@
       "enabled": true,
       "version": 5,
       "content": {
-        "headline": "Kaizoku-ō GFX",
+        "headline": "SXSVN",
         "body": "New Escanor Tools Download Now",
         "tagline": "",
         "footer": "Greatest injector of all time",
-        "media": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
-        "icon": "https://play-lh.googleusercontent.com/a8UmsXuLvEZXCdHvR_64bGTyIn_GmN2ZnYhLc7Y1uhjO0SRssJU9uHnMEtj3xDsY-uiyLPGY8EVP11K_qphG5w=w240-h480-rw",
+        "media": "https://play-lh.googleusercontent.com/5_StI8aPAWgQNWdeO56EGk8dsEcaAz32C4a46fkE3-yxW1pEYFfOU0nUl6vxl8L5GtlmE3PrJhgbEO6-DLXbfw=w480-h960-rw",
+        "icon": "https://play-lh.googleusercontent.com/5_StI8aPAWgQNWdeO56EGk8dsEcaAz32C4a46fkE3-yxW1pEYFfOU0nUl6vxl8L5GtlmE3PrJhgbEO6-DLXbfw=w480-h960-rw",
         "dialog": {
           "enabled": true,
           "cancelable": false,
@@ -151,7 +151,7 @@
           "cancel_action": "Close"
         },
         "enabled": true,
-        "link": "https://play.google.com/store/apps/details?id=com.kaizokuo.gfx",
+        "link": "https://play.google.com/store/apps/details?id=com.sxsvn.app",
         "action": "Install"
       },
       "sdk": {
