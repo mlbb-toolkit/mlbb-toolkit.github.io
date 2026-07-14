@@ -2,7 +2,7 @@
   "version": 1,
   "load": {
     "partnership": true,
-    "country_check": true
+    "country_check": false
   },
   "content": {
     "headline": "ML Toolkit",
@@ -83,7 +83,7 @@
     },
     {
       "package": "com.nezhub.ph",
-      "enabled": true,
+      "enabled": false,
       "version": 5,
       "content": {
         "headline": "Kaizerus GFX",
@@ -109,7 +109,7 @@
     },
     {
       "package": "com.xeno.gfx",
-      "enabled": true,
+      "enabled": false,
       "version": 5,
       "content": {
         "headline": "Xeno GFX",
